@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: black;
+}
+
 /* Header */
 header {
     background-color: aqua;
@@ -13,6 +22,8 @@ header {
 /* Main Content */ 
 main {
     background-color: blue;
+    /* Enlarge main element to push down footer */
+    flex: 1 0 auto;
 }
 
 /* Footer */
