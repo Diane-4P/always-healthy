@@ -1,5 +1,6 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rouge+Script&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -19,19 +20,34 @@ body {
 }
 
 h1 {
-    font-family: Rubik, sans-serif;
+    font-family: 'Rouge Script', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: aqua;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px rgb(100, 100, 100);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /* Main Content */ 
 main {
     background-color: blue;
     /* Enlarge main element to push down footer */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent from being covered by header */
+    margin-top: 47px;
 }
 
 /* Footer */
