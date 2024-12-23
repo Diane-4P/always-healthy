@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: black;
+    font-family: Montserrat, sans-serif;
 }
 
 /* Header */
