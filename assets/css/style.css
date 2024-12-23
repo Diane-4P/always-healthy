@@ -20,13 +20,13 @@ body {
 }
 
 h1 {
-    font-family: 'Rouge Script', sans-serif;
+    font-family: 'Rouge Script', serif;
 }
 
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 1em 1em;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -35,9 +35,23 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu {
+    list-style-type: none;   
+    position: relative;
+    display:flex;
+    flex-direction: row;
+}
+
+#menu li {
+    margin-bottom: 1em;
+    justify-content: space-between;
+    margin: 3px;
 }
 
 
