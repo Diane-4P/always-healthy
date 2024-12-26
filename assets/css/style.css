@@ -20,13 +20,13 @@ body {
 }
 
 h1 {
-    font-family: 'Rouge Script', serif;
+    font-family: Rubik, sans-serif;
 }
 
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 1em 1em;
+    padding: 4px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -41,11 +41,21 @@ header a {
     color: inherit;
 }
 
+#logo {
+    font-family: 'Rouge Script', serif;    
+    margin-left: 5px;
+    padding: 3px;
+}
+
 #menu {
     list-style-type: none;   
     position: relative;
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-end ;
+    gap: 2px;
+    align-items: baseline;
 }
 
 #menu li {
@@ -63,7 +73,7 @@ main {
     /* Enlarge main element to push down footer */
     flex: 1 0 auto;
     /* Add margin at the top to prevent from being covered by header */
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 /* Footer */
@@ -72,19 +82,49 @@ footer {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px;) {
+@media screen and (min-width: 768px) {
 /* Header */
 #menu {
-    list-style-type: none;   
-    position: absolute;
-    display: flex; 
-    flex-direction: row;
+    gap: 10px;
 }
 
 #menu li {
-    width: 300px;
-    margin-right: 1em;
-    padding: 10px;
+    padding: 5px;
+}
 }
 
+/* Media query: laptops and desktops (992px and up) */
+@media screen and (min-width: 992px) {
+/* Header */
+#logo {
+    font-size: 2.5em;
+}
+
+#menu {
+   font-size: 120%;
+}
+}
+
+/* Media query: laptops and desktops (1200px and up) */
+@media screen and (min-width: 1200px) {
+/* Header */
+#logo {
+    font-size: 3em;
+}
+    
+#menu {
+   font-size: 140%;
+}
+}
+/* Media query: desktops and 4k (1800px and up) */
+@media screen and (min-width: 1800px) {
+/* Header */
+#logo {
+    font-size: 6em;
+}
+        
+#menu {
+   font-size: 250%;
+   gap: 30px;
+}
 }
