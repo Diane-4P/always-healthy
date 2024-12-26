@@ -103,6 +103,12 @@ footer {
 #menu {
    font-size: 120%;
 }
+
+#menu a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* Main Content*/
 main {
     /* Add margin at the top to prevent from being covered by header */
     margin-top: 60px;
@@ -119,6 +125,8 @@ main {
 #menu {
    font-size: 140%;
 }
+
+/* Main Content*/
 main {
     /* Add margin at the top to prevent from being covered by header */
     margin-top: 70px;
@@ -135,6 +143,8 @@ main {
    font-size: 250%;
    gap: 30px;
 }
+
+/* Main Content*/
 main {
     /* Add margin at the top to prevent from being covered by header */
     margin-top: 125px;
