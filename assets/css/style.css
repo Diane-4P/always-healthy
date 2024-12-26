@@ -42,18 +42,18 @@ header a {
 }
 
 #logo {
-    font-family: 'Rouge Script', serif;    
+    font-family: 'Rouge Script', serif;
     margin-left: 5px;
     padding: 3px;
 }
 
 #menu {
-    list-style-type: none;   
+    list-style-type: none;
     position: relative;
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:flex-end ;
+    justify-content: flex-end;
     gap: 2px;
     align-items: baseline;
 }
@@ -67,7 +67,7 @@ header a {
     border-bottom: 2px solid black;
 }
 
-/* Main Content */ 
+/* Main Content */
 main {
     background-color: blue;
     /* Enlarge main element to push down footer */
@@ -78,75 +78,115 @@ main {
 
 /* Footer */
 footer {
-    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+#social-networks {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
+}
+
+h2 {
+    font-size: 1.1255em;
+}
+
+#registered-address {
+    font-size: 0.5em;
+    line-height: 0.5em;
+}
+
+#copyright {
+    font-size: 0.2em;
+}
+
+i {
+    font-size: xx-small;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-/* Header */
-#menu {
-    gap: 10px;
-}
 
-#menu li {
-    padding: 5px;
-}
+    /* Header */
+    #menu {
+        gap: 10px;
+    }
+
+    #menu li {
+        padding: 5px;
+    }
 }
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
-/* Header */
-#logo {
-    font-size: 2.5em;
-}
 
-#menu {
-   font-size: 120%;
-}
+    /* Header */
+    #logo {
+        font-size: 2.5em;
+    }
 
-#menu a:hover {
-    border-bottom: 2px solid black;
-}
+    #menu {
+        font-size: 120%;
+    }
 
-/* Main Content*/
-main {
-    /* Add margin at the top to prevent from being covered by header */
-    margin-top: 60px;
-}
+    #menu a:hover {
+        border-bottom: 2px solid black;
+    }
+
+    /* Main Content*/
+    main {
+        /* Add margin at the top to prevent from being covered by header */
+        margin-top: 60px;
+    }
 }
 
 /* Media query: laptops and desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
-/* Header */
-#logo {
-    font-size: 3em;
-}
-    
-#menu {
-   font-size: 140%;
+
+    /* Header */
+    #logo {
+        font-size: 3em;
+    }
+
+    #menu {
+        font-size: 140%;
+    }
+
+    /* Main Content*/
+    main {
+        /* Add margin at the top to prevent from being covered by header */
+        margin-top: 70px;
+    }
 }
 
-/* Main Content*/
-main {
-    /* Add margin at the top to prevent from being covered by header */
-    margin-top: 70px;
-}
-}
 /* Media query: desktops and 4k (1800px and up) */
 @media screen and (min-width: 1800px) {
-/* Header */
-#logo {
-    font-size: 6em;
-}
-        
-#menu {
-   font-size: 250%;
-   gap: 30px;
-}
 
-/* Main Content*/
-main {
-    /* Add margin at the top to prevent from being covered by header */
-    margin-top: 125px;
-}
+    /* Header */
+    #logo {
+        font-size: 6em;
+    }
+
+    #menu {
+        font-size: 250%;
+        gap: 30px;
+    }
+
+    /* Main Content*/
+    main {
+        /* Add margin at the top to prevent from being covered by header */
+        margin-top: 125px;
+    }
 }
