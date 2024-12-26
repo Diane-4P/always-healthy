@@ -92,6 +92,7 @@ footer {
     gap: 20px;
     text-align: center;
     padding: 20px;
+    gap: 5px;
 }
 
 #social-networks i {
@@ -103,14 +104,9 @@ h2 {
     font-size: 1.1255em;
 }
 
-#registered-address {
-    font-size: 0.5em;
-    line-height: 0.5em;
-}
-
-#copyright {
-    font-size: 0.2em;
-}
+.copyright {
+    font-size: 0.6em;
+} 
 
 i {
     font-size: xx-small;
@@ -127,6 +123,29 @@ i {
     #menu li {
         padding: 5px;
     }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #social-networks {
+        flex-direction: column;
+        width: 200px;
+        height: 150px;
+        margin: 0 20px;
+        padding: 5px;
+    }
+
+    #registered-marks {
+    /*    display: inline-block;*/
+        width: 200px;
+        height: 150px;
+        margin: 0 20px;
+        padding: 5px;
+    } 
 }
 
 /* Media query: laptops and desktops (992px and up) */
@@ -149,6 +168,11 @@ i {
     main {
         /* Add margin at the top to prevent from being covered by header */
         margin-top: 60px;
+    }
+
+    /* Footer */
+    footer {
+        justify-content: center;
     }
 }
 
@@ -188,5 +212,41 @@ i {
     main {
         /* Add margin at the top to prevent from being covered by header */
         margin-top: 125px;
+    }
+
+    /* Footer */
+    footer {
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 100px;
+    }
+    #social-networks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 300%;
+        padding: 20px 10px;
+        width: 400px;
+        height: 300px;
+        gap: 50px;
+    }
+
+    li {    
+        padding-top: 30px;
+    }
+
+    #registered-marks {
+        width: 400px;
+        height: 300px;
+        font-size: 200%;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    i {
+        font-size: small;
     }
 }
