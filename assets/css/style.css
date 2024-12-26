@@ -103,6 +103,10 @@ footer {
 #menu {
    font-size: 120%;
 }
+main {
+    /* Add margin at the top to prevent from being covered by header */
+    margin-top: 60px;
+}
 }
 
 /* Media query: laptops and desktops (1200px and up) */
@@ -115,6 +119,10 @@ footer {
 #menu {
    font-size: 140%;
 }
+main {
+    /* Add margin at the top to prevent from being covered by header */
+    margin-top: 70px;
+}
 }
 /* Media query: desktops and 4k (1800px and up) */
 @media screen and (min-width: 1800px) {
@@ -126,5 +134,9 @@ footer {
 #menu {
    font-size: 250%;
    gap: 30px;
+}
+main {
+    /* Add margin at the top to prevent from being covered by header */
+    margin-top: 125px;
 }
 }
