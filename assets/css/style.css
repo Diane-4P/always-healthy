@@ -154,6 +154,12 @@ i {
         padding: 5px;
     }
 
+    /* Main content */
+    /* Hero */
+    #cover-text {
+        width: 270px;
+        right: 50px;
+
     /* Footer */
     footer {
         display: flex;
@@ -232,6 +238,16 @@ i {
         gap: 30px;
     }
 
+    /* Main content */
+    /* Hero */
+        #cover-text {
+        height: 250px;
+        width: 400px;
+        left: 750px;
+        text-align: center;
+        font-size: 1.8em;
+    }
+
     /* Footer */
     footer {
         justify-content: space-evenly;
@@ -254,6 +270,7 @@ i {
 
     #registered-marks {
         width: 20%;
+        text-align: center;
     }
 
     .copyright {
