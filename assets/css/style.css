@@ -22,7 +22,11 @@ body {
 h1, h2 {
     font-family: Rubik, sans-serif;
 }
-
+/*
+.hidden-heading {
+    display: none;
+}
+*/
 /* Header */
 header {
     background-color: #ffffff;
@@ -45,6 +49,7 @@ header a {
     font-family: 'Rouge Script', serif;
     margin-left: 5px;
     padding: 3px;
+    color: #9b5f96;
 }
 
 #menu {
@@ -100,6 +105,7 @@ main {
 #cover-text > h2 {
     font-family: 'Rouge Script', serif;
     font-size: 200%;
+    color: #9b5f96;
 }
 
 /* Footer */
@@ -108,7 +114,8 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #ffffff;
+    width: 100%;
+    background-color: #94d8fb;
 }
 
 #social-networks {
@@ -124,10 +131,15 @@ footer {
 #social-networks i {
     font-size: 150%;
     padding: 5px;
+    color: #97406a;
 }
 
 h2 {
-    font-size: 1.1255em;
+    font-size: 1.0em;
+}
+
+#registered-address {
+    font-size: 0.5em;
 }
 
 .copyright {
@@ -250,16 +262,14 @@ i {
 
     /* Footer */
     footer {
-        justify-content: space-evenly;
+        flex-direction: row;
         width: 100%;
-        gap: 50px;
     }
     #social-networks {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+     /*   align-items: baseline;*/
         font-size: 110%;
+        width: 80%;
+        margin-left: auto;
         padding: 20px 10px;
         gap: 50px;
     }
@@ -270,6 +280,7 @@ i {
 
     #registered-marks {
         width: 20%;
+        margin-left: 0;
         text-align: center;
     }
 
