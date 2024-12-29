@@ -93,28 +93,38 @@ main {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(148, 216, 251, .7);
-    font-size: 120%;
+    font-size: 110%;
     position: absolute;
     bottom: 30px;
-    width: 70%;
+    width: 80%;
     min-height: 180px;
-    padding-top: 20px;
-    padding-left: 10px;
+    padding: 10px 10px;
     color: #ffffff;
+    text-align: center;    
 }
 
 #cover-text > h2 {
     font-family: 'Rouge Script', serif;
     font-size: 200%;
     color: #9b5f96;
+    text-align: center;
 }
 
-/* About */
+#cover-text > h3 {
+    text-align: center;
+}
+
+/* About section*/
 #about {
     background-color: #8cbced;
 }
 
+/* Images */
+.rounded {
+    margin-top: 5px;
+}
 
+/* List items */
 .list-group {
     display: flex;
     align-items: center;
@@ -123,6 +133,22 @@ main {
 .list-group-item:first-child {
     display: flex;
     align-self: center;
+}
+
+/* Buttons */
+.custom-button {
+    background-color: #97406a;
+    border: #97406a;
+}
+
+.custom-button:hover {
+    background-color: #9b5f96;
+    border: #9b5f96;
+}
+
+.custom-button:active {
+    background-color: #977ebb;
+    border: #977ebb;
 }
 
 /* Footer */
@@ -307,8 +333,8 @@ h4 {
     /* Main content */
     /* Hero */
     #cover-text {
-    height: 250px;
-    width: 400px;
+    height: 280px;
+    width: 520px;
     left: 750px;
     text-align: center;
     font-size: 1.8em;
