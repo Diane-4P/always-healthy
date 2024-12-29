@@ -109,8 +109,13 @@ main {
     color: #9b5f96;
 }
 
+#about {
+    background-color: #8cbced;
+}
+
 .card {
-    margin-left: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 /* Footer */
