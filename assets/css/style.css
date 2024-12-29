@@ -109,13 +109,20 @@ main {
     color: #9b5f96;
 }
 
+/* About */
 #about {
     background-color: #8cbced;
 }
 
-.card {
+
+.list-group {
     display: flex;
     align-items: center;
+}
+
+.list-group-item:first-child {
+    display: flex;
+    align-self: center;
 }
 
 /* Footer */
