@@ -19,14 +19,10 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Rubik, sans-serif;
 }
-/*
-.hidden-heading {
-    display: none;
-}
-*/
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -124,8 +120,9 @@ footer {
     justify-content: space-evenly;
     gap: 20px;
     text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
     padding: 5px;
-    gap: 15px;
 }
 
 #social-networks i {
@@ -136,17 +133,24 @@ footer {
 
 h2 {
     font-size: 1.0em;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
 #registered-address {
-    font-size: 0.5em;
+    font-size: 0.7em;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
-.copyright {
-    font-size: 0.6em;
+#copyright {
+    font-size: 0.6em;    
+    margin: 0;
+    margin-bottom: 5px;
 } 
 
-i {
+#copyright > i {
     font-size: xx-small;
 }
 
@@ -171,16 +175,14 @@ i {
     #cover-text {
         width: 270px;
         right: 50px;
+    }
 
     /* Footer */
     footer {
-        display: flex;
         flex-direction: row;
-        width: 100%;
     }
 
     #social-networks {
-        flex-direction: column;
         width: 50%;
         height: 100%;
         margin: 0 20px;
@@ -188,11 +190,17 @@ i {
     }
 
     #registered-marks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 50%;
         height: 100%;
-        margin: 0 20px;
         padding: 5px;
     } 
+
+    #copyright {
+        margin-right: 25px;
+    }
 }
 
 /* Media query: laptops and desktops (992px and up) */
@@ -216,6 +224,16 @@ i {
         /* Add margin at the top to prevent from being covered by header */
         margin-top: 60px;
     }
+
+    /* Footer */
+    #social-networks {
+        width: 70%;
+        margin: 0 0;
+    }
+
+    #registered-marks {
+        width: 30%;
+    }
 }
 
 /* Media query: laptops and desktops (1200px and up) */
@@ -235,6 +253,21 @@ i {
         /* Add margin at the top to prevent from being covered by header */
         margin-top: 70px;
     }
+    
+    /* Footer */
+    #social-networks {
+        width: 70%;
+    }
+
+    #social-networks i {
+        font-size: 200%;
+    }
+
+    #registered-marks {
+        width: 30%;
+        align-items: flex-start;
+        margin-left: 5em;
+    }
 }
 
 /* Media query: desktops and 4k (1800px and up) */
@@ -252,12 +285,12 @@ i {
 
     /* Main content */
     /* Hero */
-        #cover-text {
-        height: 250px;
-        width: 400px;
-        left: 750px;
-        text-align: center;
-        font-size: 1.8em;
+    #cover-text {
+    height: 250px;
+    width: 400px;
+    left: 750px;
+    text-align: center;
+    font-size: 1.8em;
     }
 
     /* Footer */
@@ -265,8 +298,8 @@ i {
         flex-direction: row;
         width: 100%;
     }
+
     #social-networks {
-     /*   align-items: baseline;*/
         font-size: 110%;
         width: 80%;
         margin-left: auto;
@@ -284,7 +317,7 @@ i {
         text-align: center;
     }
 
-    .copyright {
+    #copyright {
         font-size: 0.8em;
     }
 
