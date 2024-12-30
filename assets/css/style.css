@@ -86,7 +86,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/worcester-city-hero.jpg) no-repeat center center/cover;
+    background: url(../images/index-page/worcester-city-hero.jpg) no-repeat center center/cover;
     position: relative;
 }
 
