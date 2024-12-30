@@ -151,6 +151,22 @@ main {
     border: #977ebb;
 }
 
+/* About section*/
+#classes {
+    background-color: #8cbced;
+}
+
+#classes .custom-button {
+    display: flex;
+    justify-content: center;
+    align-self: center
+}
+
+#classes li {
+    font-size:small;
+    font-weight: 500;
+}
+
 /* Footer */
 footer {
     display: flex;
