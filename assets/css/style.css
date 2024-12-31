@@ -151,15 +151,19 @@ main {
     border: #977ebb;
 }
 
-/* About section*/
-#classes {
-    background-color: #8cbced;
+/* Classes page */
+.card-body {
+    flex: 0 1 auto;
 }
 
-#classes .custom-button {
-    display: flex;
-    justify-content: center;
-    align-self: center
+#classes > .custom-cards {
+    justify-content: space-evenly;
+    padding: 1rem;
+    gap: 10px;
+}
+
+#classes > .selector-for-some-widget {
+    box-sizing: content-box;
 }
 
 #classes li {
