@@ -171,6 +171,15 @@ main {
     font-weight: 500;
 }
 
+/* Shop page */
+#shop {
+    padding: 1rem;
+}
+
+#shop .carousel-inner {
+    height: 300px;
+} 
+
 /* Footer */
 footer {
     display: flex;

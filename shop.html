@@ -48,111 +48,144 @@
     <!--Main content -->
     <main>
         <section id="shop">
-            <div class="row justify-content-around">
-                <!-- my-3 used to add top and bottom margin to heading and pt-2 for padding at the top -->
-                <div class="col-12 text-center my-3 pt-2">
+            <div class="row">
+                <!-- my-3 used to add top and bottom margin to heading -->
+                <div class="col-12 text-center my-3">
                     <h2 class="display-6 fw-medium">Shop</h2>
                 </div>
                 <!-- Clothing -->
-                 <section id="clothing container">
-                    <div>
-                        <h3>Clothing</h3>                    
+                <div id="clothing" class="container">
+                    <div class="pb-2">
+                        <h3>Clothing</h3>
                     </div>
-                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/images/shop-page/clothing/pexels-bamboo-ave-677926128-17917176.jpg" class="d-block w-100" alt="...">
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide pb-3" data-bs-touch="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+                                 aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                            <div class="carousel-item active">
+                                <img src="assets/images/shop-page/clothing/pexels-bamboo-ave-677926128-17917176.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/shop-page/clothing/pexels-blanxybuilding-20400652.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/shop-page/clothing/pexels-darina-belonogova-8374555.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/shop-page/clothing/pexels-gabby-k-6311255.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/shop-page/clothing/pexels-ketut-subiyanto-4852749.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/shop-page/clothing/pexels-marcus-aurelius-6787501.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/shop-page/clothing/pexels-shvetsa-6250893.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/clothing/pexels-blanxybuilding-20400652.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/clothing/pexels-darina-belonogova-8374555.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item active">
-                            <img src="assets/images/shop-page/clothing/pexels-gabby-k-6311255.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/clothing/pexels-ketut-subiyanto-4852749.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/clothing/pexels-marcus-aurelius-6787501.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/clothing/pexels-shvetsa-6250893.jpg" class="d-block w-100" alt="...">
-                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button"
-                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button"
-                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-            </section>
-                 <!-- Footwear -->
-                 <section id="footwear container">
-                    <div>
-                        <h3>Footwear</div>                    
+                <!-- Footwear -->
+                <div id="footwear" class="container">
+                    <div class="pb-2">
+                        <h3>Footwear
                     </div>
-                 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide pb-3" data-bs-touch="false">
                     <div class="carousel-inner">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+                             aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
                         <div class="carousel-item active">
-                            <img src="assets/images/shop-page/footwear/pexels-craytive-1456706.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/footwear/pexels-marcus-silva-86421404-26088459.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/footwear/pexels-pixabay-163535.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/footwear/pexels-the-mole-311820973-16539682.jpg" class="d-block w-100" alt="...">
-                        </div>
+                            <img src="assets/images/shop-page/footwear/pexels-craytive-1456706.jpg" class="d-block w-100"
+                            alt="...">
                     </div>
-                    <button class="carousel-control-prev" type="button"
-                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button"
-                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="carousel-item">
+                        <img src="assets/images/shop-page/footwear/pexels-marcus-silva-86421404-26088459.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/shop-page/footwear/pexels-pixabay-163535.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/shop-page/footwear/pexels-the-mole-311820973-16539682.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
                 </div>
-                </section>
-                 <!-- Drinks bottles -->
-                 <section id="drinks-bottles container">
-                    <div>
-                        <h3>Drinks Bottles</h3>                    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
                     </div>
-                 <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/images/shop-page/drinks-bottles/pexels-cottonbro-5274535.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/drinks-bottles/pexels-ketut-subiyanto-4853115.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/shop-page/drinks-bottles/pexels-shvetsa-6283505.jpg" class="d-block w-100" alt="...">
-                        </div>
+                </div>
+                <!-- Drinks bottles -->
+                <div id="drinks-bottles" class="container">
+                    <div class="pb-2">
+                        <h3>Drinks Bottles</h3>
                     </div>
-                    <button class="carousel-control-prev" type="button"
-                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button"
-                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide pb-3" data-bs-touch="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" 
+                                aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                    <div class="carousel-item active">
+                        <img src="assets/images/shop-page/drinks-bottles/pexels-cottonbro-5274535.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/shop-page/drinks-bottles/pexels-ketut-subiyanto-4853115.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/shop-page/drinks-bottles/pexels-shvetsa-6283505.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -182,16 +215,14 @@
         </ul>
         <div id="registered-marks">
             <div>
-                <h2>
+                <h4 id="registered-heading">
                     Registered Address
-                </h2>
-                <br>
-                <p class="registered-address">
+                </h4>
+                <p id="registered-address">
                     15 New Bond Street <br>Worcester <br>WR4 6JK
                 </p>
             </div>
-            <br>
-            <p class="copyright">
+            <p id="copyright">
                 <i class="fa-regular fa-copyright"></i>
                 Always Healthy 2024
             </p>
@@ -205,10 +236,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-     <!-- Bootstrap v4.2.2 JS Script to include masonry layout -->
-     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-     integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
-     async></script>
+    <!-- Bootstrap v4.2.2 JS Script to include masonry layout -->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
 </body>
 
 </html>
