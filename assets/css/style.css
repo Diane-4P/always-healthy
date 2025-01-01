@@ -22,6 +22,9 @@ body {
 h1, h2, h3 {
     font-family: Rubik, sans-serif;
 }
+.hidden-heading {
+    display: none;
+}
 
 .sharp-corners,
 .sharp-corners * {
@@ -176,9 +179,13 @@ main {
     padding: 1rem;
 }
 
-#shop .carousel-inner {
-    height: 300px;
-} 
+#shop .custom-font {
+    font-size: small;
+}
+
+#shop p {
+    margin-bottom: 0.5em;
+}
 
 /* Footer */
 footer {
@@ -344,6 +351,15 @@ h4 {
         align-items: flex-start;
         margin-left: 5em;
     }
+
+    /*Shop page */
+    #shop .custom-font-banner > p {
+        font-size: 1.3em;
+    }
+
+    #shop .custom-font {
+        font-size: medium;
+    }
 }
 
 /* Media query: desktops and 4k (1800px and up) */
@@ -367,6 +383,15 @@ h4 {
     left: 750px;
     text-align: center;
     font-size: 1.8em;
+    }
+
+    /*Shop page */
+    #shop .custom-font-banner > p {
+        font-size: 1.5em;
+    }
+
+    #shop .custom-font {
+        font-size: large;
     }
 
     /* Footer */
