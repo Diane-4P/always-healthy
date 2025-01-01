@@ -82,7 +82,7 @@ main {
     /* Enlarge main element to push down footer */
     flex: 1 0 auto;
     /* Add margin at the top to prevent from being covered by header */
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 /* Hero section */
