@@ -190,8 +190,10 @@ main {
 /* Contact page */
 #contact {
     background: url(../images/contact/contact-background.jpg) no-repeat center center/cover;
-    background-position: 75%;
+    position: 75%;
     padding: 20px 10% 20px 10%;
+    flex-grow: 1;
+}
 
 #contact-form {
     /* Final rgba value sets the opacity so it is semi-transparent */
@@ -199,11 +201,6 @@ main {
     color: #ffffff;
     padding: 20px;
 } 
-
-.sharp-corners,
-.sharp-corners * {
-    border-radius: 0;
-}
 
 /* Footer */
 footer {
@@ -255,23 +252,49 @@ h4 {
     font-size: xx-small;
 }
 
+/* Media query: tablets and larger (576px and up) */
+@media screen and (min-width: 576px) {
+     /* Contact page */
+   #contact {
+        background-position: center;
+        position: relative;
+        height: 100vh;
+    }
+
+    #contact-form {
+        max-width: 400px;  
+        position: relative; 
+        left: 10%;
+        top: 10%;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
     header {
         box-shadow: none;
+        padding-bottom: 10px;
+    }
+
+    nav {
+        margin-top: 1rem;
     }
 
     #menu {
-        gap: 10px;
+        gap: 20px;
     }
 
     #menu li {
-        font-size: 16px;
+        font-size: 1.2em;
         padding: 5px;
+        letter-spacing: 1px;
     }
 
-    /* Main Content*/
+    #logo {
+        font-size: calc(1.375rem + 2vw)
+    }
+
     /* Hero */
     #cover-text {
         width: 270px;
@@ -279,19 +302,11 @@ h4 {
     }
 
     /* Contact page */
-    #contact {
-        background-position: center;
-    /*    position: relative;*/
-    }
-
     #contact-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
+        padding-top: 0;
     }
 
-    /* Footer */
+      /* Footer */
     footer {
         flex-direction: row;
     }
@@ -319,7 +334,6 @@ h4 {
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
-
     /* Header */
     #logo {
         font-size: 2.5em;
@@ -332,11 +346,11 @@ h4 {
     #menu a:hover {
         border-bottom: 2px solid black;
     }
-
-    /* Main Content*/
-    main {
-        /* Add margin at the top to prevent from being covered by header */
-        margin-top: 79px;
+    /* Main */
+    /* Contact form */
+        #contact-form {
+        max-width: 500px;
+        margin: 1.5rem 0;
     }
 
     /* Footer */
@@ -362,10 +376,9 @@ h4 {
         font-size: 110%;
     }
 
-    /* Main Content*/
-    main {
-        /* Add margin at the top to prevent from being covered by header */
-        margin-top: 70px;
+    /* Main */
+    #contact-form {
+        margin: 2rem 0;
     }
     
     /* Footer */
@@ -395,18 +408,22 @@ h4 {
 
 /* Media query: desktops and 4k (1800px and up) */
 @media screen and (min-width: 1800px) {
-
     /* Header */
     #logo {
         font-size: 3em;
     }
 
     #menu {
-        font-size: 110%;
         gap: 30px;
     }
 
-    /* Main content */
+    #menu li {
+        font-size: 1.5em;
+        padding: 5px;
+        letter-spacing: 2px;
+    }
+
+    /* Main */
     /* Hero */
     #cover-text {
     height: 280px;
@@ -423,6 +440,11 @@ h4 {
 
     #shop .custom-font {
         font-size: large;
+    }
+
+    /* Contact page */
+    #contact-form {
+        max-width: 1000px;
     }
 
     /* Footer */
