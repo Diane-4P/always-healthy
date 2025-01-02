@@ -48,38 +48,39 @@
     <!--Main content -->
     <main>
         <section id="contact">
-            <div>
-                <h2>Contact Us</h2>
-                <p>Got questions, need more information or want to book one of our classes. Please get in touch and we'll get back to you.</p>
-            </div>
-            <!-- Form-->
-            <form id="contact-form" action="https://formdump.codeinstitute.net/" method="post">
-                <div class="row g-3">
-                    <div class="col-md-6">
-                        <label for="first-name" class="form-label">First name</label>
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                <!-- Form-->
+                <form id="contact-form" action="https://formdump.codeinstitute.net/" method="post">
+                    <div class="col-12 text-center">
+                        <h2>Contact Us</h2>
+                        <p>Got questions, need more information or want to book one of our classes. Please get in touch and
+                            we'll get back to you.</p>
                     </div>
-                    <div class="col-md-6">
-                        <label for="last-name" class="form-label">Last name</label>
-                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    <div class="row g-3 sharp-corners">
+                        <div class="col-12 col-6 col-lg-6 col-lg-4">
+                            <label for="first-name" class="form-label">First name</label>
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col-12 col-6 col-lg-6 col-lg-4">
+                            <label for="last-name" class="form-label">Last name</label>
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                        <div class="col-12 col-6 col-lg-6 col-lg-4">
+                            <label for="inputEmail4" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com" aria-label="Email address">
+                        </div>
+                        <div class="col-12 col-6 col-lg-6 col-lg-4">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" aria-label="Phone number">
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" rows="3" aria-label="Message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary custom-button">Send</button>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="phone">Enter your phone number:</label>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}">
-                    </div>
-                    <div class="col-12">
-                        <label for="message" class="form-label">message</label>
-                        <textarea class="form-control" name="message" rows="5"></textarea>
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Send</button>
-                    </div>
-                </div>
-            </form>
+                </form>
         </section>
     </main>
 

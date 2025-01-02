@@ -187,6 +187,24 @@ main {
     margin-bottom: 0.5em;
 }
 
+/* Contact page */
+#contact {
+    background: url(../images/contact/contact-background.jpg) no-repeat center center/cover;
+    background-position: 75%;
+    padding: 20px 10% 20px 10%;
+
+#contact-form {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(155, 95, 150, .7);
+    color: #ffffff;
+    padding: 20px;
+} 
+
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -253,11 +271,24 @@ h4 {
         padding: 5px;
     }
 
-    /* Main content */
+    /* Main Content*/
     /* Hero */
     #cover-text {
         width: 270px;
         right: 50px;
+    }
+
+    /* Contact page */
+    #contact {
+        background-position: center;
+    /*    position: relative;*/
+    }
+
+    #contact-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
     }
 
     /* Footer */
@@ -305,7 +336,7 @@ h4 {
     /* Main Content*/
     main {
         /* Add margin at the top to prevent from being covered by header */
-        margin-top: 60px;
+        margin-top: 79px;
     }
 
     /* Footer */
