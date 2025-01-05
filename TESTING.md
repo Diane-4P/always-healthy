@@ -55,5 +55,14 @@ The results of the performance for the Home, Classes and Shop pages scored betwe
 - Table of tests
 | Test description    | Expected outcome    | Actual outcome    | Test outcome    | Problem solution |
 
-- Further testing
-- Known bugs discovered
+### Further testing
+
+    - I have tested that the Navbar and the Logo links worked correctly and that they go to the correct page and the active line and the hover works when doing this.
+    - I have tested that the Social Media links work and they open up in a new tab on all pages.
+    - I have tested that the Contact Us buttons work on the Classes page by going to the Contact page and the buttons change when hovered over.
+    
+
+### Known bugs discovered
+
+When the site was deployed the **Social Media links** did not work but the **Navbar links** did. The closing 'a' tag did not include the icon, therefore the website address was separate from the icon. Once this was moved to enclose the website address and icon, all social media network links worked.
+

@@ -50,33 +50,32 @@
         <section id="contact">
             <form id="contact-form" action="https://formdump.codeinstitute.net/" method="post"
                 class="row g-3 sharp-corners">
-                <!--  <div class="row g-3 sharp-corners"> -->
                 <h2 class="col-12 text-center">Contact Us</h2>
                 <p class="col-12 text-center">Got questions, need more information or want to book one of our classes.
                     Please get in touch and we'll get back to you.</p>
                 <div class="col-12 col-lg-6">
                     <label for="first-name" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="first-name" placeholder="First name"
-                        aria-label="First name">
+                    <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First name"
+                        aria-label="First name" required>
                 </div>
                 <div class="col-12 col-lg-6">
                     <label for="last-name" class="form-label">Last name</label>
-                    <input type="text" class="form-control" id="last-name" placeholder="Last name"
-                        aria-label="Last name">
+                    <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last name"
+                        aria-label="Last name" required>
                 </div>
                 <div class="col-12 col-lg-6">
                     <label for="inputEmail4" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com"
-                        aria-label="Email address">
+                    <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="name@example.com"
+                        aria-label="Email address" required>
                 </div>
                 <div class="col-12 col-lg-6">
                     <label for="phone" class="form-label">Phone number</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}"
-                        aria-label="Phone number">
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="01234-567-890" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}"
+                        aria-label="Phone number" required>
                 </div>
                 <div class="col-12">
                     <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" name="message" rows="3" id="message" aria-label="Message"></textarea>
+                    <textarea class="form-control" name="message" rows="3" id="message" aria-label="Message" required></textarea>
                 </div>
                 <div class="col-12">
                     <button type="submit" class="btn btn-primary custom-button">Send Message</button>
