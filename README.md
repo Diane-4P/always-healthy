@@ -108,18 +108,8 @@ The Contact page features a **contact form**, which requests an enquirers first 
     - Balsamiq
 
 ## Testing
-- W3C Markup validator (HTML)
-- W3C CSS validator (CSS)
-- Beautifier.io (formating code)
-- Ensure functions correctly
-- Identify potential bugs
-- Use defined user stories for testing
 
-- Table of tests
-| Test description    | Expected outcome    | Actual outcome    | Test outcome    | Problem solution |
-
-- Further testing
-- Known bugs discovered
+[View TESTING.md file](/TESTING.md)
 
 ## Deployment
 
@@ -142,6 +132,7 @@ The live link can be found [here](https://diane-4p.github.io/always-healthy/).
     Table
     - [StackOverflow post No.169](https://stackoverflow.com/questions/20825211/bootstrap-table-striped-how-do-i-change-the-stripe-background-colour)
         - Was used to override stripes to change Bootstraps colours to the colours of the website and the colours were then made transparent.
+    - [Bootstrap v5.3.3](https://getbootstrap.com/) library and [W3 Schools](https://www.w3schools.com/css/default.asp) was used throughout the production of the site to make it responsive on all devices.
 
 - Content
     - All content was written by the developer.
