@@ -1,7 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rouge+Script&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -19,7 +18,7 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: Rubik, sans-serif;
 }
 .hidden-heading {
@@ -193,6 +192,14 @@ main {
     border-color: #97406a; /* Dynamo */
 }
 
+#registered-marks .h4 {
+    font-size: 0.8em;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
 /* Shop page */
 #shop {
     padding: 1rem;
@@ -204,6 +211,11 @@ main {
 
 #shop p {
     margin-bottom: 0.5em;
+}
+
+/* Contrast for the light color writing */
+#shop .custom-bg-label {
+    background-color: #97406a;
 }
 
 /* Contact page */
@@ -309,6 +321,7 @@ h4 {
         letter-spacing: 1px;
     }
 
+    /* To increase Bootstraps font size */
     #logo {
         font-size: calc(1.375rem + 2vw)
     }
@@ -365,7 +378,7 @@ h4 {
         border-bottom: 2px solid black;
     }
     /* Main */
-    /* Contact form */
+    /* Contact page */
         #contact-form {
         max-width: 500px;
         margin: 1.5rem 0;
@@ -384,7 +397,6 @@ h4 {
 
 /* Media query: laptops and desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
-
     /* Header */
     #logo {
         font-size: 3em;
@@ -398,7 +410,16 @@ h4 {
     #contact-form {
         margin: 2rem 0;
     }
-    
+   
+    /*Shop page */
+    #shop .custom-font-banner > p {
+        font-size: 1.3em;
+    }
+
+    #shop .custom-font {
+        font-size: medium;
+    }
+
     /* Footer */
     #social-networks {
         width: 70%;
@@ -412,15 +433,6 @@ h4 {
         width: 30%;
         align-items: flex-start;
         margin-left: 5em;
-    }
-
-    /*Shop page */
-    #shop .custom-font-banner > p {
-        font-size: 1.3em;
-    }
-
-    #shop .custom-font {
-        font-size: medium;
     }
 }
 
