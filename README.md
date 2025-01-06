@@ -2,7 +2,7 @@
 
 [View Always Healthy deployed site here.](https://diane-4p.github.io/always-healthy/)
 
-![Home page of Always Healthy gym website with Worcester Cathedral in the background]()
+![Home page of Always Healthy gym website with Worcester Cathedral in the background](/assets/images/readme/image-2.png)
 
 ## Introduction
 
@@ -18,13 +18,13 @@ Is interested in attracting new users to join the gym and to continue to use the
 
 ### User Stories
 
-- As a visitor to the gym I want to know when the gym is open so that I know when I can use the gym.
-- As a first time user of the website I want to know what the membership and joining fees are so that I can compare them to other gyms.
-- As a pensioner I want a place that is friendly and does exercise suited to my age and that is affordable.
-- As a first time visitor to the gym I want to use the gym but I have no idea how to use the equipment. Where do I start.
-- As a middle aged woman I want a place to go where I don't feel intimidated when I exercise and ladies only events.
-- As a mew user of the site I want to be able to see what other people say about the gym.
-- As a user of the site I want to know what classes are available and book them.
+- As a visitor to the gym, I want to know when the gym is open so that I know when I can use the gym.
+- As a first time user of the website, I want to know what the membership and joining fees are so that I can compare them to other gyms.
+- As a pensioner, I want a place that is friendly and does exercise suited to my age and that is affordable.
+- As a first time visitor to the gym, I want to use the gym but I have no idea how to use the equipment. Where do I start.
+- As a middle aged woman, I want a place to go where I don't feel intimidated when I exercise and ladies only events.
+- As a mew user of the site, I want to be able to see what other people say about the gym.
+- As a user of the site, I want to know what classes are available and book them.
 
 ## Design Choices
 
@@ -32,7 +32,7 @@ Is interested in attracting new users to join the gym and to continue to use the
 
 The colours chosen were obtained from a sample of the blue on the Home page hero image and put into a pallet picker from mycolor.space and I chose the matching gradient pallet. These were converted into RGB by using Rapid Tables for transparency and to obtain the names for the colours I used colornamer.robertcooper.me (Shiva Blue rgb(148, 216, 251), Electric Eel rgb(140,188, 237), Portage rgb(143, 158, 217), Lavender Purple rgb(151, 126, 187), Bermuda Onion rgb(155, 95, 150), and Dynamo rgb(151, 64, 106))
 
-![Matching Gradient colours from mycolor.space](image-1.png)
+![Matching Gradient colours from mycolor.space](/assets/images/readme/image-1.png)
 
 ### Typography
 
@@ -43,8 +43,22 @@ The Montserrat was used for the main font on the website with Sans-serif as its 
 The main image on the Home page is a photo of Worcester's Cathedral and as a land mark of the town it shows the city the gym is located in.
 
 ## Wireframes
-- Hand drawn
-- Computer produced
+- Home
+    - [For Mobile](/assets/images/Wireframes/Home/ah-wireframe-1.jpg)
+    - [For Tablet](/assets/images/Wireframes/Home/ah-wireframe-2%20.jpg)
+    - [For Desktop](/assets/images/Wireframes/Home/ah-wireframe-3.jpg)
+- Classes
+    - [For Mobile](/assets/images/Wireframes/Classes/ah-wireframe-4.jpg)
+    - [For Tablet](/assets/images/Wireframes/Classes/ah-wireframe-5.jpg)
+    - [For Desktop](/assets/images/Wireframes/Classes/ah-wireframe-6.jpg)
+- Gallery
+    - [For Mobile](/assets/images/Wireframes/Gallery/ah-wireframe-7.jpg)
+    - [For Tablet](/assets/images/Wireframes/Gallery/ah-wireframe-8.jpg)
+    - [For Desktop](/assets/images/Wireframes/Gallery/ah-wireframe-9.jpg)
+- Contact
+    - [For Mobile](/assets/images/Wireframes/Contact/ah-wireframe-10.jpg)
+    - [For Tablet](/assets/images/Wireframes/Contact/ah-wireframe-11.jpg)
+    - [For Desktop](/assets/images/Wireframes/Contact/ah-wireframe-12.jpg)
 
 ## Features
 
@@ -193,10 +207,5 @@ The live link can be found [here](https://diane-4p.github.io/always-healthy/).
 This site and content are for educational purposes only.
 
 ## Additional feature to add
-- Future features
 - Final testing
 - Final credits
-
-
-
-[def]: https://codeinstitute-ide.net/workspaces
