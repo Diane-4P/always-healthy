@@ -88,7 +88,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/index-page/worcester-city-hero.jpg) no-repeat center center/cover;
+    background: url(../images/index-page/worcester-city-hero.webp) no-repeat center center/cover;
     position: relative;
     /* Backup color if image not loaded */
     background-color: #8cbced; /* Electric Eel */
@@ -221,7 +221,7 @@ main {
 
 /* Contact page */
 #contact {
-    background: url(../images/contact/contact-background.jpg) no-repeat center center/cover;
+    background: url(../images/contact-page/contact-background.webp) no-repeat center center/cover;
     padding: 20px 10% 20px 10%;
     flex-grow: 1;
     /* Backup color if image not loaded */
