@@ -6,15 +6,15 @@
 
 ## Introduction
 
-Always Healthy encourages new users to visit the gym and join to get healthy on a physical and spiritual level. It targets not only the young and professional to join the gym to use the equipment but also encourages the mature and elderly to do Yoga, Pilates and meditation, for the well being of the people who attend the gym.
+Our main goal at Always Healthy is to encourages new users to visit the gym and join to get healthy on a physical and spiritual level. It targets not only the young and professional to join the gym to use the equipment but also encourages the mature and elderly to do Yoga, Pilates and meditation, for the well being of the people who attend the gym.
 
-There is no membership for the gym but we do offer a monthly fee for clients to be able to use all the services that are available. We also offer one off daily use standard fee and concessions for the budget conscious clients.
+There is no membership for the gym but we do offer a monthly fee for clients to be able to use all the services that are available. We also offer one off daily or single use standard fee and concessions for the budget conscious clients.
 
 ## User Experience (UX)
 
 ### Gym Owners Goals
 
-Is interested in attracting new users to join the gym and to continue to use the facilities and also encourage and retain current gym clients. Also, the client wants to encourage senior citizens to join the gym looking for low-impact exercises for mobility, strength and balance.
+The client is interested in attracting new users to join the gym and to continue to use the facilities and also encourage and retain current gym clients. Also, the client wants to encourage senior citizens to join the gym looking for low-impact exercises for mobility, strength and balance.
 
 ### User Stories
 
@@ -36,13 +36,14 @@ The colours chosen were obtained from a sample of the blue on the Home page hero
 
 ### Typography
 
-The Montserrat was used for the main font on the website with Sans-serif as its fallback font, just in case the main font does not get imported to the website correctly. Montserrat is used frequently in programming due to its clean look. The headings had the Rubik font for a different look, which also has the Sans-serif as the fallback font. For the logo the Rouge Script was used for its decorative properties, with the Serif font as its fallback.
+The Montserrat was used for the main font on the website with Sans-serif as its fallback font, just in case the main font does not get imported to the website correctly. Montserrat is used frequently in programming due to its clean look. The headings had the Rubik font for a subtle different look, which also has the Sans-serif as the fallback font. For the logo the Rouge Script was used for its decorative properties, with the Serif font as its fallback.
 
 ### Imagery
 
-The main image on the Home page is a photo of Worcester's Cathedral and as a land mark of the town it shows the city the gym is located in.
+The main image on the Home page is a photo of Worcester's Cathedral and as a land mark of the town it shows the city the gym is located in, with a banner that immediately lets the user know what the site is about.
 
 ## Wireframes
+These were the original look of the site and the Gallery was exchanged for a Shop page which in the future will enable users to purchase online.
 - Home
     - [For Mobile](/assets/images/Wireframes/Home/ah-wireframe-1.jpg)
     - [For Tablet](/assets/images/Wireframes/Home/ah-wireframe-2%20.jpg)
@@ -64,7 +65,7 @@ The main image on the Home page is a photo of Worcester's Cathedral and as a lan
 
 Each page has a **header** with the responsive **logo**, linking to the Home page, in the top left hand corner and a responsive **navigation bar**, linking to all the pages on the website (Home, Classes, Shop, Contact) to the top right. The navigation bar is fixed in position and when you hover over the page titles a line appears underneath, also the page that is active has a fixed line so that users can see which page they are on. 
 
-The **footer** includes the **social media icons** of **Facebook, Twitter and Instagram,** linking them to their respective home pages. The footer also includes the **copyright information** and the **registered address** of the company. All buttons on each page change colour when you **hover** over them to click the link or send infomation to the gym.
+The **footer** includes the **social media icons** of **Facebook, Twitter and Instagram,** linking them to their respective home pages. The footer also includes the **copyright information** and the **registered address** of the company. All buttons on each page change colour when you **hover** over them to click the link or send infomation to the gym via the contact form.
 
 ### Home
 
@@ -74,20 +75,20 @@ There is a welcome to the site with information on how to join, opening times an
 
 ### Classes
 
-The Classes page features 10 images of the classes that are available, so that you can see from the photos and the description below what the class entails and whether it would be suitable for the young or mature members of the gym. There is also a **call to action button** below each description to join and book one of the classes. To help keep people informed of classes there is a timetable at the bottom of the page showing what time, the class and where the class is held, which was created using a **table** for uniformity and its 2 tone colours with transparency so that the colours didn't overwelm the writing. 
+The Classes page features 10 images of the classes that are available, so that you can see from the photos and the description below what the class entails and whether it would be suitable for the young or mature members of the gym. There is also a **call to action button** below each description to join and book one of the classes. To help keep people informed of classes there is a timetable at the bottom of the page showing what time, the class and where the class is held, which was created using a **table** for uniformity and its 2 tone colours with transparency so that the colours didn't overwelm the text. 
 
 ### Shop
 
-The Shop page is laid out in columns with the image and a small description of the product and the price, to show that there is clothing, trainers, and drinks bottles available for new or recurring members of the gym, whether young or mature. On the mobile the design choice of 2 columns wide was to show more items on the smaller screen so that users would not get discouraged by seeing one product at a time.
+The Shop page is laid out in columns with the image and a small description of the product and the price, to show that there is clothing, trainers, and drinks bottles available for new or recurring members of the gym, whether young or mature. On the mobile the design choice of 2 columns wide was to show more items on the smaller screen so that users would not get discouraged by seeing one product at a time. This will be changed in the future so that products can be purchased online.
 
 ### Contact
 
-The Contact page features a **contact form**, which requests an enquirers first and last names, email address and phone number. You also have a box to put details of your message, whether its to join the club, join a class or ask questions for further details etc. There is also a **send button** at the bottom of the form. The form has a transparent backgroun so that you can see the full page image of a woman using the dumbbells. This image shows what the gym is like and to encourage users to join the gym.
+The Contact page features a **contact form**, which requests an enquirers first and last names, email address and phone number. You also have a box to put details of your message, whether its to join the club, join a class or ask questions for further details etc. There is also a **send button** at the bottom of the form. The form has a transparent background so that you can see the full page image of a woman using the dumbbells. This image shows what the gym is like and to encourage users to join the gym. All the information input onto the form is **required** so if any box is left empty then a message appears to let the user know that the details are required. There is also **placeholer text** to show what format the input text needs to be in.
 
 ## Features to Implement in the Future
 
 - Set up social media pages for Facebook, Twitter and LinkIn to encourage more people to join.
-- Add a checkout basket and to receive payments to the shop.
+- Add a checkout basket and to receive payments to the shop, so can purchase products online.
 - Add testimonials to the Home page to let users see how other gym members are enjoying the gym.
 - Add FAQ table with drop down answers to the Home page so users get answers to their questions quicker.
 - Change the send button on the Contact page to have a pop-up to show the message has been received.
@@ -118,9 +119,7 @@ The Contact page features a **contact form**, which requests an enquirers first 
     - The Image Compressor was used to compress the Opening Times image as the files size was too big for Tiny PNG.
 - [Am I Responsive](https://ui.dev/amiresponsive)
     - Checking the responsiveness of the website.
-    -
-    - Balsamiq
-
+ 
 ## Testing
 
 [View TESTING.md file](/TESTING.md)
@@ -137,7 +136,7 @@ The site was deployed to GitHub Pages using the following steps:
 4. Under "Branch" click on the dropdown menu called "None" and select "Main".
 5. On the dropdown menu next to "Main" select "Root" and click the "Save" button.
 6. Navigate to the "Code" of the repository, located at the top of the page in the menu.
-7. On the right hand is an "About" section and below that is the "Deployments" which shows the GitHub pages thats deployed.
+7. On the right hand side is an "About" section and below that is the "Deployments" which shows the GitHub pages thats deployed.
 
 The live link can be found [here](https://diane-4p.github.io/always-healthy/).
 
@@ -205,7 +204,3 @@ The live link can be found [here](https://diane-4p.github.io/always-healthy/).
 ## Disclaimer
 
 This site and content are for educational purposes only.
-
-## Additional feature to add
-- Final testing
-- Final credits
