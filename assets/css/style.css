@@ -285,6 +285,13 @@ h4 {
     font-size: xx-small;
 }
 
+/* Media query; mobiles smaller (315px and down - hide the home link */
+@media screen and (max-width: 315px) {
+    #home-link {
+        display: none;
+    }
+}
+
 /* Media query: tablets and larger (576px and up) */
 @media screen and (min-width: 576px) {
      /* Contact page */
