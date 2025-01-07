@@ -117,6 +117,10 @@ The Contact page features a **contact form**, which requests an enquirers first 
     - To compress all images to smaller file size.
 - [Image Compressor](https://imagecompressor.com/)
     - The Image Compressor was used to compress the Opening Times image as the files size was too big for Tiny PNG.
+- [Tiny Wow](https://tinywow.com/image/resize)
+    - Used to resize images
+- [Convert webp to jpg](chrome-extension://lioppfcbaohgghplacfgajfhbpmlhnbc/src/action/index.html) - an extension on Chrome
+    - Used to convert jpg images to webp images
 - [Am I Responsive](https://ui.dev/amiresponsive)
     - Checking the responsiveness of the website.
  
