@@ -2,7 +2,7 @@
 
 [View Always Healthy deployed site here.](https://diane-4p.github.io/always-healthy/)
 
-![Home page of Always Healthy gym website with Worcester Cathedral in the background](/assets/images/readme/image-2.png)
+![Home page of Always Healthy gym website with Worcester Cathedral in the background](/assets/images/readme/mochups-website-ah-gym.png)
 
 ## Introduction
 
@@ -32,7 +32,7 @@ The client is interested in attracting new users to join the gym and to continue
 
 The colours chosen were obtained from a sample of the blue on the Home page hero image and put into a pallet picker from mycolor.space and I chose the matching gradient pallet. These were converted into RGB by using Rapid Tables for transparency and to obtain the names for the colours I used colornamer.robertcooper.me (Shiva Blue rgb(148, 216, 251), Electric Eel rgb(140,188, 237), Portage rgb(143, 158, 217), Lavender Purple rgb(151, 126, 187), Bermuda Onion rgb(155, 95, 150), and Dynamo rgb(151, 64, 106))
 
-![Matching Gradient colours from mycolor.space](/assets/images/readme/image-1.png)
+![Matching Gradient colours from mycolor.space](/assets/images/readme/color-design.png)
 
 ### Typography
 

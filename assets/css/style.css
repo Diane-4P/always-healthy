@@ -16,6 +16,10 @@ body {
     /* Generic project styles */
     color: black;
     font-family: Montserrat, sans-serif;
+    /* For screen sizes 4K and up */
+    max-width: 2400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1, h2, h3, h4 {
@@ -41,6 +45,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    /* For screen sizes 4K and up */
+    max-width: 2400px;
 }
 
 header a {
@@ -54,6 +60,7 @@ header a {
     padding: 3px;
     color: #9b5f96; /* Bermuda Onion */
 }
+
 
 #menu {
     list-style-type: none;

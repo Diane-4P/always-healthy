@@ -125,4 +125,4 @@ The browsers Chrome, Edge and Firefox shows a white edge on the right hand side 
     - This still needs to be looked into.
 
 The Navbar on the mobile screen of less than 300px shows on 2 lines and maybe needs to be changed to a burger bar and dropdown menu.
-    - This still needs to be corrected.
+    - Included a @media query for screens smaller than 315px to hide the Home link on the Navbar as you can still get to the Home page by clicking on the sites logo.
