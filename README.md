@@ -45,21 +45,22 @@ The main image on the Home page is a photo of Worcester's Cathedral and as a lan
 ## Wireframes
 These were the original look of the site and the Gallery was exchanged for a Shop page which in the future will enable users to purchase online.
 - Home
-    - [For Mobile](/assets/images/Wireframes/Home/ah-wireframe-1.jpg)
-    - [For Tablet](/assets/images/Wireframes/Home/ah-wireframe-2%20.jpg)
-    - [For Desktop](/assets/images/Wireframes/Home/ah-wireframe-3.jpg)
+    - [For Mobile](/readme-images/Wireframes/Home/home-mobile-wireframe.png)
+    - [For Tablet](/readme-images/Wireframes/Home/home-tablet-wireframe.png)
+    - [For Desktop](/readme-images/Wireframes/Home/home-desktop-wireframe.png)
 - Classes
-    - [For Mobile](/assets/images/Wireframes/Classes/ah-wireframe-4.jpg)
-    - [For Tablet](/assets/images/Wireframes/Classes/ah-wireframe-5.jpg)
-    - [For Desktop](/assets/images/Wireframes/Classes/ah-wireframe-6.jpg)
+    - [For Mobile](/readme-images/Wireframes/Classes/classes-mobile-wireframe.png)
+    - [For Tablet](/readme-images/Wireframes/Classes/classes-tablet-wireframe.png)
+    - [For Desktop](/readme-images/Wireframes/Classes/classes-desktop-wireframe.png)
+
 - Gallery
-    - [For Mobile](/assets/images/Wireframes/Gallery/ah-wireframe-7.jpg)
-    - [For Tablet](/assets/images/Wireframes/Gallery/ah-wireframe-8.jpg)
-    - [For Desktop](/assets/images/Wireframes/Gallery/ah-wireframe-9.jpg)
+    - [For Mobile](/readme-images/Wireframes/Gallery/gallery-mobile-wireframe.png)
+    - [For Tablet](/readme-images/Wireframes/Gallery/gallery-tablet-wireframe.png)
+    - [For Desktop](/readme-images/Wireframes/Gallery/gallery-desktop-wireframe.png)
 - Contact
-    - [For Mobile](/assets/images/Wireframes/Contact/ah-wireframe-10.jpg)
-    - [For Tablet](/assets/images/Wireframes/Contact/ah-wireframe-11.jpg)
-    - [For Desktop](/assets/images/Wireframes/Contact/ah-wireframe-12.jpg)
+    - [For Mobile](/readme-images/Wireframes/Contact/contact-mobile-wireframe.png)
+    - [For Tablet](/readme-images/Wireframes/Contact/contact-tablet-wireframe.png)
+    - [For Desktop](/readme-images/Wireframes/Contact/contact-desktop-wireframe.png)
 
 ## Features
 
