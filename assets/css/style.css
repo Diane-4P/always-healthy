@@ -147,6 +147,14 @@ main {
 }
 
 /* Buttons */
+.button-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem 12px;
+}
+
 .custom-button {
     background-color: #97406a; /* Dynamo */
     border: #97406a;
@@ -163,6 +171,10 @@ main {
 }
 
 /* Classes page */
+#classes {
+    padding-top: 2rem;
+}
+
 .card-body {
     flex: 0 1 auto;
 }
@@ -349,6 +361,14 @@ h4 {
         right: 50px;
     }
 
+    .button-group {
+        gap: 120px;
+    }
+
+    .custom-button {
+        padding: 14px 28px;
+    }
+
     /* Contact page */
     #contact-form {
         padding-top: 0;
@@ -424,10 +444,12 @@ h4 {
     }
 
     /* Main */
-    #contact-form {
-        margin: 2rem 0;
+    /* Classes page */
+    #classes .custom-button {
+        padding: 16px 4rem;
+        font-size: 1.5em;
     }
-   
+    
     /*Shop page */
     #shop .custom-font-banner > p {
         font-size: 1.3em;
@@ -437,6 +459,11 @@ h4 {
         font-size: medium;
     }
 
+    /* Contact page */
+    #contact-form {
+        margin: 2rem 0;
+    }
+   
     /* Footer */
     #social-networks {
         width: 70%;
