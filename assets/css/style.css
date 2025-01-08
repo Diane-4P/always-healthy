@@ -225,17 +225,21 @@ main {
     padding: 1rem;
 }
 
-#shop .custom-font {
-    font-size: small;
+#shop .custom-font-banner p {
+    color: #ffffff !important;
+    font-weight: 500 !important;
 }
 
 #shop p {
+    color: #ffffff !important;
     margin-bottom: 0.5em;
+    font-size: small;
 }
 
 /* Contrast for the light color writing */
 #shop .custom-bg-label {
     background-color: #97406a;
+    padding: 18px 5px;
 }
 
 /* Contact page */
@@ -421,6 +425,10 @@ h4 {
         margin: 1.5rem 0;
     }
 
+    #shop .custom-font-banner p {
+        font-size: 1em;
+    }
+
     /* Footer */
     #social-networks {
         width: 70%;
@@ -455,8 +463,8 @@ h4 {
         font-size: 1.3em;
     }
 
-    #shop .custom-font {
-        font-size: medium;
+    #shop p {
+        font-size: 0.9em;
     }
 
     /* Contact page */
@@ -516,8 +524,10 @@ h4 {
         font-size: 1.5em;
     }
 
-    #shop .custom-font {
-        font-size: large;
+    #shop p {        
+        color: #ffffff !important;
+        font-weight: 600 !important;
+        font-size: 1.3em;
     }
 
     /* Contact page */
