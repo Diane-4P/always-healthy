@@ -16,26 +16,28 @@ When I created a mochup of the website on **Am I Responsive**, the **Navbar** on
 
 - [W3C Markup validator](https://validator.w3.org/)
     - ### index.html
-    - ![Results of html checker showing an error on line 178](/assets/images/testing/image-3.png)
+    - ![Results of html checker showing an error on line 178](/readme-images/testing/index-html-validator-result-error.png)
     - ### Once the error was corrected this was the result of the checker.
-    - ![Results of html checker showing no errors or warnings](/assets/images/testing/image-4.png)
+    - ![Results of html checker showing no errors or warnings](/readme-images/testing/index-html-validator-result-no-errors.png)
     - ### classes.html
-    - ![Results of html checker showing an error on line 356](/assets/images/testing/image-5.png)
+    - ![Results of html checker showing an error on line 356](/readme-images/testing/classes-html-validator-result-error.png)
     - ### Once the error was corrected this was the result of the checker.
-    - ![Results of html checker showing no errors or warnings](/assets/images/testing/image-6.png)
+    - ![Results of html checker showing no errors or warnings](/readme-images/testing/classes-html-validator-result-no-errors.png)
     - ### shop.html
-    - ![Results of html checker showing errors on lines 224, 51 and 263](/assets/images/testing/image-7.png)
+    - ![Results of html checker showing errors on lines 224, 51 and 263](/readme-images/testing/shop-html-validator-result-errors.png)
     - ### Once the errors was corrected this was the result of the checker.
-    - ![Results of html checker showing no errors or warnings](/assets/images/testing/image-8.png)
+    - ![Results of html checker showing no errors or warnings](/readme-images/testing/shop-html-validator-result-no-errors.png)
     - ### contact.html
-    - ![Results of html checker showing errors on lines 122, 57, 61 and 75](/assets/images/testing/image-9.png)
+    - ![Results of html checker showing errors on lines 122, 57, 61 and 75](/readme-images/testing/contact-html-validator-result-errors.png)
     - ### Once the errors was corrected this was the result of the checker.
-    - ![Results of html checker showing no errors or warnings](/assets/images/testing/image-10.png)
+    - ![Results of html checker showing no errors or warnings](/readme-images/testing/contact-html-validator-result-no-errors.png)
 - [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
     - ### style.csss
-    - ![Results of css checker showing an error on line 212 with a warning on line 2](/assets/images/testing/image-11.png)
+    - ![Results of css checker showing an error on line 212 with a warning on line 2](/readme-images/testing/style-css-validator-result-error-warning.png)
     - ### The error was corrected but nothing was done about line 2 as it was an imported style sheet that couldn't be comfirmed by this checker and this was the result of the checker.
-    - ![Results of css checker showing no errors but still 1 warning](/assets/images/testing/image-12.png)
+    - ![Results of css checker showing no errors but still 1 warning](/readme-images/testing/style-css-validator-result-no-errors-warning.png)
+
+After making further adjustments to the site I retested the HTML and CSS with the validators again and they showed now errors.
 
 - ### Lighthouse
 
@@ -46,8 +48,8 @@ There was also a small problem, on all the pages, with the ordering of the headi
 
 The results of the performance for the Home, Classes and Shop pages scored between 30-40 and the Contact page scored 71 for desktop but for the mobile it was 63. With accessability all of the pages scored 100 except for the Shop page with a score of 95 and with best practices and the SEO all pages getting a score of 100. 
 
-![Lighthouse score for Always Healthy website for the Contact page on desktop](/assets/images/testing/image-13.png)
-![Lighthouse score for Always Healthy website for the Shop page on desktop](/assets/images/testing/image-14.png)
+![Lighthouse score for Always Healthy website for the Contact page on desktop](/readme-images/testing/contact-performance-71-score.png)
+![Lighthouse score for Always Healthy website for the Shop page on desktop](/readme-images/testing/shop-performance-33-score.png)
 
 ### Testing user defined stories from the UX section of README.md
 
@@ -119,7 +121,7 @@ When the site was deployed the **Social Media links** did not work but the **Nav
 When the fields on the Contact Us form was filled in no messages appeared to make sure that the user input information into all the boxes. I included the required attribute to all the fields on the form so that the what was sent to the gym included everything needed from the user to contact them again in relation to their enquiry. 
 
 - Information received by the gym from the **Contact Us form**.
-- ![Email information sent to Code Institute](/assets/images/testing/image-15.png)
+- ![Email information sent to Code Institute](/readme-images/testing/email-info-code-institute-received.png)
 
 The browsers Chrome, Edge and Firefox shows a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appears at the bottom and not on the smaller screens.
     - This still needs to be looked into.

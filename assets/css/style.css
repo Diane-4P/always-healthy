@@ -22,13 +22,18 @@ body {
     margin-right: auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: Rubik, sans-serif;
 }
+
 .hidden-heading {
     display: none;
 }
 
+/* Change to sharp corners */
 .sharp-corners,
 .sharp-corners * {
     border-radius: 0;
@@ -36,12 +41,14 @@ h1, h2, h3, h4 {
 
 /* Header */
 header {
-    background-color: #ffffff; /* white */ 
+    /* white */
+    background-color: #ffffff;
     padding: 4px;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px rgb(100, 100, 100); /* hard coral */
+    /* hard coral */
+    box-shadow: 0 2px 2px rgb(100, 100, 100);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -58,7 +65,8 @@ header a {
     font-family: 'Rouge Script', serif;
     margin-left: 5px;
     padding: 3px;
-    color: #9b5f96; /* Bermuda Onion */
+    /* Bermuda Onion */
+    color: #9b5f96;
 }
 
 
@@ -97,13 +105,13 @@ main {
     width: 100%;
     background: url(../images/index-page/worcester-city-hero.webp) no-repeat center center/cover;
     position: relative;
-    /* Backup color if image not loaded */
-    background-color: #8cbced; /* Electric Eel */
+    /* Backup color Electric Eel if image not loaded */
+    background-color: #8cbced;
 }
 
 #cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(148, 216, 251, .7); /* Shiva Blue */
+    /* Final rgba value sets the opacity so it is semi-transparent Shiva Blue */
+    background-color: rgba(148, 216, 251, .7);
     font-size: 110%;
     position: absolute;
     bottom: 30px;
@@ -111,26 +119,28 @@ main {
     min-height: 180px;
     padding: 10px 10px;
     color: #ffffff;
-    text-align: center;    
+    text-align: center;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
     font-family: 'Rouge Script', serif;
     font-size: 200%;
+    /* Bermuda Onion */
     color: #9b5f96;
     text-align: center;
 }
 
-#cover-text > h3 {
+#cover-text>h3 {
     text-align: center;
 }
 
 /* About section*/
 #about {
-    background-color: #8cbced; /* Electric Eel */
+    /* Electric Eel */
+    background-color: #8cbced;
 }
 
-/* Images */
+/* Images rounded corners */
 .rounded {
     margin-top: 5px;
 }
@@ -146,7 +156,7 @@ main {
     align-self: center;
 }
 
-/* Buttons */
+/* Custom Buttons */
 .button-group {
     display: flex;
     flex-direction: row;
@@ -156,17 +166,20 @@ main {
 }
 
 .custom-button {
-    background-color: #97406a; /* Dynamo */
+    /* Dynamo */
+    background-color: #97406a;
     border: #97406a;
 }
 
 .custom-button:hover {
-    background-color: #9b5f96; /* Bermuda Onion */ 
+    /* Bermuda Onion */
+    background-color: #9b5f96;
     border: #9b5f96;
 }
 
 .custom-button:active {
-    background-color: #977ebb; /* Lavender Purple */
+    /* Lavender Purple */
+    background-color: #977ebb;
     border: #977ebb;
 }
 
@@ -179,45 +192,41 @@ main {
     flex: 0 1 auto;
 }
 
-#classes > .custom-cards {
+#classes>.custom-cards {
     justify-content: space-evenly;
     padding: 1rem;
     gap: 10px;
 }
 
-#classes > .selector-for-some-widget {
+#classes>.selector-for-some-widget {
     box-sizing: content-box;
 }
 
 #classes li {
-    font-size:small;
+    font-size: small;
     font-weight: 500;
 }
 
-#timetable-rota > h3 {
+#timetable-rota>h3 {
     text-transform: uppercase;
 }
 
-/* Change table color coding on Stackoverflow No. 169 */
-.table-striped > tbody > tr:nth-child(odd) > td, 
-.table-striped > tbody > tr:nth-child(odd) > th {
-   background-color: rgba(143, 158, 217, 0.5); /* Portage */
+/* Change table color coding from Stackoverflow No. 169 */
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    /* Portage */
+    background-color: rgba(143, 158, 217, 0.5);
 }
 
-.table-striped > tbody > tr:nth-child(even) > td, 
-.table-striped > tbody > tr:nth-child(even) > th {
-   background-color:  rgba(151, 126, 187, 0.5); /* Lavender Purple */
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    /* Lavender Purple */
+    background-color: rgba(151, 126, 187, 0.5);
 }
 
 .table {
-    border-color: #97406a; /* Dynamo */
-}
-
-#registered-marks .h4 {
-    font-size: 0.8em;
-    font-weight: 300;
-    margin: 0;
-    margin-bottom: 5px;
+    /* Dynamo */
+    border-color: #97406a;
 }
 
 /* Shop page */
@@ -236,7 +245,7 @@ main {
     font-size: small;
 }
 
-/* Contrast for the light color writing */
+/* Contrast for the text */
 #shop .custom-bg-label {
     background-color: #97406a;
     padding: 18px 5px;
@@ -247,16 +256,16 @@ main {
     background: url(../images/contact-page/contact-background.webp) no-repeat center center/cover;
     padding: 20px 10% 20px 10%;
     flex-grow: 1;
-    /* Backup color if image not loaded */
-    background-color: #8cbced; /* Electric Eel */
+    /* Backup color if image not loaded Electric Eel */
+    background-color: #8cbced;
 }
 
 #contact-form {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(155, 95, 150, .7); /* Bermuda Onion */
+    /* Final rgba value sets the opacity so it is semi-transparent Bermuda Onion */
+    background-color: rgba(155, 95, 150, .7);
     color: #ffffff;
     padding: 20px;
-} 
+}
 
 /* Footer */
 footer {
@@ -265,7 +274,8 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: #94d8fb; /* Shiva Blue */
+    /* Shiva Blue */
+    background-color: #94d8fb;
 }
 
 #social-networks {
@@ -282,7 +292,8 @@ footer {
 #social-networks i {
     font-size: 150%;
     padding: 5px;
-    color: #97406a; /* Dynamo */
+    /* Dynamo */
+    color: #97406a;
 }
 
 h4 {
@@ -299,17 +310,19 @@ h4 {
 }
 
 #copyright {
-    font-size: 0.6em;    
+    font-size: 0.6em;
     margin: 0;
     margin-bottom: 5px;
-} 
+}
 
-#copyright > i {
+#copyright>i {
     font-size: xx-small;
 }
 
 /* Media query; mobiles smaller (315px and down - hide the home link */
 @media screen and (max-width: 315px) {
+
+    /* Header */
     #home-link {
         display: none;
     }
@@ -317,16 +330,17 @@ h4 {
 
 /* Media query: tablets and larger (576px and up) */
 @media screen and (min-width: 576px) {
-     /* Contact page */
-   #contact {
+
+    /* Contact page */
+    #contact {
         background-position: center;
         position: relative;
         height: 100vh;
     }
 
     #contact-form {
-        max-width: 400px;  
-        position: relative; 
+        max-width: 400px;
+        position: relative;
         left: 10%;
         top: 10%;
     }
@@ -334,6 +348,7 @@ h4 {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     header {
         box-shadow: none;
@@ -378,7 +393,7 @@ h4 {
         padding-top: 0;
     }
 
-      /* Footer */
+    /* Footer */
     footer {
         flex-direction: row;
     }
@@ -397,7 +412,7 @@ h4 {
         width: 50%;
         height: 100%;
         padding: 5px;
-    } 
+    }
 
     #copyright {
         margin-right: 25px;
@@ -406,6 +421,7 @@ h4 {
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
+
     /* Header */
     #logo {
         font-size: 2.5em;
@@ -418,15 +434,17 @@ h4 {
     #menu a:hover {
         border-bottom: 2px solid black;
     }
-    /* Main */
-    /* Contact page */
-        #contact-form {
-        max-width: 500px;
-        margin: 1.5rem 0;
-    }
 
+    /* Main */
+    /* Shop page */
     #shop .custom-font-banner p {
         font-size: 1em;
+    }
+
+    /* Contact page */
+    #contact-form {
+        max-width: 500px;
+        margin: 1.5rem 0;
     }
 
     /* Footer */
@@ -442,6 +460,7 @@ h4 {
 
 /* Media query: laptops and desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
+
     /* Header */
     #logo {
         font-size: 3em;
@@ -457,9 +476,9 @@ h4 {
         padding: 16px 4rem;
         font-size: 1.5em;
     }
-    
+
     /*Shop page */
-    #shop .custom-font-banner > p {
+    #shop .custom-font-banner>p {
         font-size: 1.3em;
     }
 
@@ -471,7 +490,7 @@ h4 {
     #contact-form {
         margin: 2rem 0;
     }
-   
+
     /* Footer */
     #social-networks {
         width: 70%;
@@ -490,6 +509,7 @@ h4 {
 
 /* Media query: desktops and 4k (1800px and up) */
 @media screen and (min-width: 1800px) {
+
     /* Header */
     #logo {
         font-size: 3em;
@@ -506,6 +526,7 @@ h4 {
     }
 
     /* Main */
+    /* Hero section */ 
     #cover-text {
         height: 280px;
         width: 520px;
@@ -515,16 +536,17 @@ h4 {
         margin-top: 10px;
     }
 
+    /* About section */
     #about {
         padding: 30px 0;
     }
 
     /*Shop page */
-    #shop .custom-font-banner > p {
+    #shop .custom-font-banner>p {
         font-size: 1.5em;
     }
 
-    #shop p {        
+    #shop p {
         color: #ffffff !important;
         font-weight: 600 !important;
         font-size: 1.3em;
@@ -535,7 +557,7 @@ h4 {
         max-width: 1000px;
     }
 
-    #contact-form > p {
+    #contact-form>p {
         font-size: 1.5em;
     }
 
@@ -557,7 +579,7 @@ h4 {
         gap: 50px;
     }
 
-    li {    
+    li {
         padding-top: 30px;
     }
 
