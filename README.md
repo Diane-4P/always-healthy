@@ -111,7 +111,7 @@ The Contact page features a **contact form**, which requests an enquirers first 
 - [Font Awsome](https://fontawesome.com/)
     - Icons were added were added to all pages of the website for aesthetic and UX purposes.
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
-    - Version Conrol System used to track changes in source code using the Gitpod terminal to commit messages and push to to GitHub.
+    - Version Conrol System used to track changes in source code using the Gitpod terminal to commit messages and push to GitHub.
 - [GitHub](https://github.com/)
     - GitHub was used to store the website after being pushed from Git.
 - [Tiny PNG](https://tinypng.com/)
@@ -144,6 +144,10 @@ The site was deployed to GitHub Pages using the following steps:
 7. On the right hand side is an "About" section and below that is the "Deployments" which shows the GitHub pages thats deployed.
 
 The live link can be found [here](https://diane-4p.github.io/always-healthy/).
+
+The site is hosted using GitHub pagaes and is deployed via the main branch. The deployed site uses a Version Conrol System to track changes in the source code using the Gitpod terminal to commit messages and push then to GitHub. This will update the repository automatically when GitHub receives these commits in the main branch. The main landing page of the site has to be named index.html in order for the site to be deployed correctly, as the search engines are looking for this document to load the site onto the web.
+
+To run the site locally, you can clone the repository into the code editor of your choice by pasting the git clone https://github.com/Diane-4P/always-healthy.git into your terminal. To then stop using the repository and cut ties with it you type 'git remote rm origin' into the terminal.
 
 ## Credits (references)
 - Code
