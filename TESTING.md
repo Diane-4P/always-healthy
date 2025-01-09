@@ -8,9 +8,11 @@
 
 ### Browsers
 
-When testing the site in multiple browsers (Chrome, Firefox and Edge and Safari) they all showed lagging in opening up onto the landing page. All browsers also showed a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appeared at the bottom and not on the smaller screens.
+When testing the site in multiple browsers (Chrome, Firefox and Edge and Safari) they all showed lagging in opening up onto the landing page. All browsers also showed a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appeared at the bottom and not on the smaller screens. Due to the lagging all the images were re-sized to the hero image with a ratio of 16:9, other Home and Classes images with a ratio of 3:2, Shop images were made square (1:1) at 800px x 800px, and the Contact page's image already had a 3:2 aspect ratio. All new image sizes were changed from jpg to webp format to allow all the pages to be more responsive, which you can see in the Lighthouse performance results below.
 
-When I created a mochup of the website on **Am I Responsive**, the **Navbar** on the mobile appeared on 2 lines, which happens when the screen is less than 300px.
+During testing on multiple mobile devices (iPone 5(SE), iPhone 12 Pro, iPad mini, Galaxy S20 ultra, Huawei P30 Pro: Chrome), there was a good response on all devices but I found that on the iPad mini showed that the Registered Address title was bigger on the Classes and Contact pages. When checking the Lighthouse performance it showed that the headings elements were not in a sequentially-descending order so when I changed this I made the heading for the footer on these pages a h3 and with a class of h4 from Bootstrap but the font-weight that was higher. To make them respond in the same way as the Home page I added the selector of '#registered-marks h3' to the h4 on the stylesheet to achieve this.
+
+When I created a mochup of the website on **Am I Responsive**, the **Navbar** on the mobile appeared on 2 lines, which happens when the screen is less than 300px. This was fixed by adding a **@media query** for mobile with a screen size smaller than 300px. This will remove the home link from displaying, which will not cause any problems as the logo has a link to the home screen which people are aware of nowadays.  
 
 ### Validators
 
