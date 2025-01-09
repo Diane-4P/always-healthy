@@ -51,6 +51,24 @@ The results of the performance for the Home, Classes and Shop pages scored betwe
 ![Lighthouse score for Always Healthy website for the Contact page on desktop](/readme-images/testing/contact-performance-71-score.png)
 ![Lighthouse score for Always Healthy website for the Shop page on desktop](/readme-images/testing/shop-performance-33-score.png)
 
+After modifying the images on the site and further adjustments and styling to the pages, I re-analysed the performance, accessibility, best practices and the SEO of the website, which gave the following results:
+
+- ### Home
+- Mobile results - [Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/home-performance-mobile-score.png)
+- Desktop results - [Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/home-performance-desktop-score.png)
+
+- ### Classes
+- Mobile results - [Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/classes-performance-mobile-score.png)
+- Desktop results - [Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/classes-performance-desktop-score.png)
+
+- ### Shop
+- Mobile results - [Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/shop-performance-mobile-score.png)
+- Desktop results - [Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/shop-performance-desktop-score.png)
+
+- ### Contact
+- Mobile results - [Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/contact-performance-mobile-score.png)
+- Desktop results - [Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/contact-performance-desktop-score.png)
+
 ### Testing user defined stories from the UX section of README.md
 
 - As a visitor to the gym, I want to know when the gym is open so that I know when I can use the gym.
