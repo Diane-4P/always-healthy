@@ -8,7 +8,7 @@
 
 Our main goal at Always Healthy is to encourages new users to visit the gym and join to get healthy on a physical and spiritual level. It targets not only the young and professional to join the gym to use the equipment but also encourages the mature and elderly to do Yoga, Pilates and meditation, for the well being of the people who attend the gym.
 
-There is no membership for the gym but we do offer a monthly fee for clients to be able to use all the services that are available. We also offer one off daily or single use standard fee and concessions for the budget conscious clients.
+There is no membership for the gym but we do offer a monthly fee for clients to be able to use all the services that are available. We also offer one off daily or single use standard fee and concessions for the pensioners.
 
 ## User Experience (UX)
 
@@ -16,15 +16,31 @@ There is no membership for the gym but we do offer a monthly fee for clients to 
 
 The client is interested in attracting new users to join the gym and to continue to use the facilities and also encourage and retain current gym clients. Also, the client wants to encourage senior citizens to join the gym looking for low-impact exercises for mobility, strength and balance.
 
+- ![Home page of Always Healthy site](/readme-images/home-page-owner-goals.png)
+
 ### User Stories
 
 - As a visitor to the gym, I want to know when the gym is open so that I know when I can use the gym.
+- ![Gym Opening Times](/readme-images/gym-opening-times.png)
 - As a first time user of the website, I want to know what the membership and joining fees are so that I can compare them to other gyms.
+[Membership and Joining Fees](/readme-images/membership-no-fees.png)
 - As a pensioner, I want a place that is friendly and does exercise suited to my age and that is affordable.
+[Standard and Concession Prices](/readme-images/standard-concession-prices.png)
 - As a first time visitor to the gym, I want to use the gym but I have no idea how to use the equipment. Where do I start.
+[Tour of the Gym](/readme-images/tour-gym-first-time.png)
 - As a middle aged woman, I want a place to go where I don't feel intimidated when I exercise and ladies only events.
-- As a mew user of the site, I want to be able to see what other people say about the gym.
+[Ladies only with Instructor if wanted](/readme-images/ladies-only-instructor.png)
 - As a user of the site, I want to know what classes are available and book them.
+- ![Classes and Timetable of theGym](/readme-images/classes-timetable.png)
+
+
+|As a visitor to the gym, |
+|I want to know when the  |
+|gym is open so that I    |  
+|know when I can use the  |
+|gym.                     |
+|                         |
+
 
 ## Design Choices
 
