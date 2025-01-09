@@ -6,13 +6,17 @@
 
 ## Testing
 
-### Browsers
+### Browser Compatability
 
-When testing the site in multiple browsers (Chrome, Firefox and Edge and Safari) they all showed lagging in opening up onto the landing page. All browsers also showed a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appeared at the bottom and not on the smaller screens. Due to the lagging all the images were re-sized to the hero image with a ratio of 16:9, other Home and Classes images with a ratio of 3:2, Shop images were made square (1:1) at 800px x 800px, and the Contact page's image already had a 3:2 aspect ratio. All new image sizes were changed from jpg to webp format to allow all the pages to be more responsive, which you can see in the Lighthouse performance results below.
+When testing the site in multiple browsers (Chrome, Firefox, Edge and Safari) they all showed lagging in opening up onto the landing page. All browsers also showed a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appeared at the bottom and not on the smaller screens. Due to the lagging all the images were re-sized, the hero image with a aspect ratio of 16:9, other Home and Classes images with a ratio of 3:2, Shop images were made square (1:1) at 800px x 800px, and the Contact page's image already had a 3:2 aspect ratio. All new image sizes were changed from jpg to webp format to allow all the pages to be more responsive, which you can see in the Lighthouse performance results below.
 
-During testing on multiple mobile devices (iPone 5(SE), iPhone 12 Pro, iPad mini, Galaxy S20 ultra, Huawei P30 Pro: Chrome), there was a good response on all devices but I found that on the iPad mini showed that the Registered Address title was bigger on the Classes and Contact pages. When checking the Lighthouse performance it showed that the headings elements were not in a sequentially-descending order so when I changed this I made the heading for the footer on these pages a h3 and with a class of h4 from Bootstrap but the font-weight that was higher. To make them respond in the same way as the Home page I added the selector of '#registered-marks h3' to the h4 on the stylesheet to achieve this.
+### Responsiveness
 
-When I created a mochup of the website on **Am I Responsive**, the **Navbar** on the mobile appeared on 2 lines, which happens when the screen is less than 300px. This was fixed by adding a **@media query** for mobile with a screen size smaller than 300px. This will remove the home link from displaying, which will not cause any problems as the logo has a link to the home screen which people are aware of nowadays.  
+During testing on multiple mobile devices (iPone 5(SE), iPhone 12 Pro, iPad mini, Galaxy S20 ultra), there was a good response on all devices within **Chrome developer tools** but I found that on the iPad mini showed that the Registered Address title was bigger on the Classes and Contact pages. When checking the Lighthouse performance it showed that the headings elements were not in a sequentially-descending order so when I changed this I made the heading for the footer on these pages a h3 and with a class of h4 from Bootstrap but the font-weight was higher. To make them respond in the same way as the Home page I added the selector of '#registered-marks h3' to the h4 on the stylesheet to achieve this.
+
+When I created a mochup of the website on **Am I Responsive**, the **Navbar** on the mobile appeared on 2 lines, which happens when the screen is less than 300px. This was fixed by adding a **@media query** for mobile with a screen size smaller than 315px (it is slightly smaller than the most commonly used small screen of the iPhone 5 at 320px). This will remove the home link from displaying, which will not cause any problems as the logo has a link to the home screen which people are aware of nowadays. When testing this out on a Galaxy fold although I had added the @media query and an id="home-link" to the home page I forgot about the other pages so have now included it and it is working correctly.
+
+Within Chrome's developer tools I also tested the larger screens of 4K screen of 2560px and the iMac Pro of 5120px which showed the site taking up about 30% of the screen. As there is a lot of real estate to take up I created a maximum width of 2400px and to centralise the view of the site. The 4K screen has about 10% of white space on either side on all the sites pages, with 5% at the bottom on the Home screen, the classes and the Shop page about the same but doesn't stand out as much because the background is white, but the Contact page shows no white space at the bottom. The 5K screen shows about 30% of white screen on either side of the site for all the pages, but with the Home page there is approximately 50%, the Classes page shows 1/3, Shop page about 5% and the Contact page has no white space at the bottom of the site. While testing the responsiveness of the site on the large screens I also noticed that the navbar menu was disappearing to the right, so a max-width was put on the header as well, so you could see the menu within the bounds of the sites screen width.
 
 ### Validators
 
@@ -132,19 +136,30 @@ After modifying the images on the site and further adjustments and styling to th
     - Click the submit button to see that the information is received by Code Institute (see image below)
 
 ### Further testing
-- I viewed the site on my own mobile and the Navigation bar appeared in full and there was only the lagging of the photos on each page.
+- I viewed the site on my own mobile (Huawei P30 Pro: Chrome) and the Navigation bar appeared in full and there was only the lagging of the photos on each page. When I tested it again (after the image changes) I found that I had no propblems with clicking on the links and the loading of the pages.
 
 ### Known bugs discovered
 
 When the site was deployed the **Social Media links** did not work but the **Navbar links** did. The closing 'a' tag did not include the icon, therefore the website address was separate from the icon. Once this was moved to enclose the website address and icon, all social media network links worked.
 
-When the fields on the Contact Us form was filled in no messages appeared to make sure that the user input information into all the boxes. I included the required attribute to all the fields on the form so that the what was sent to the gym included everything needed from the user to contact them again in relation to their enquiry. 
+When the fields on the Contact Us form was filled in no pop-up messages appeared to make sure that the user input information into all the boxes. I included the **required** attribute to all the fields on the form so that the pop-up message to prompt the user to fill all the field in appears and that the email address is filled in correctly in the right format. Once the user completed the form what was sent to the gym includes everything the gym needs to contact them. 
 
-- Information received by the gym from the **Contact Us form**.
+- ### Information received by the gym from the **Contact Us form**.
 - ![Email information sent to Code Institute](/readme-images/testing/email-info-code-institute-received.png)
 
 The browsers Chrome, Edge and Firefox shows a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appears at the bottom and not on the smaller screens.
     - This still needs to be looked into.
 
 The Navbar on the mobile screen of less than 300px shows on 2 lines and maybe needs to be changed to a burger bar and dropdown menu.
-    - Included a @media query for screens smaller than 315px to hide the Home link on the Navbar as you can still get to the Home page by clicking on the sites logo.
+    - Instead it was decided that the home link could be removed as the logo can be used to get back to the home screen. A **@media query** for mobile screens smaller than 315px was used to hide the Home link on the Navbar and once it was included on all pages the response on the smaller device of the Galaxy fold showed it working correctly.
+
+- ### Media query applied.
+```
+    - /* Media query; mobiles smaller (315px and down) - hide the home link */
+    @media screen and (max-width: 315px) {
+
+        /* Header */
+        #home-link {
+        display: none;
+        }
+    }

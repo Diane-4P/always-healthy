@@ -320,7 +320,7 @@ h4,
     font-size: xx-small;
 }
 
-/* Media query; mobiles smaller (315px and down - hide the home link */
+/* Media query; mobiles smaller (315px and down) - hide the home link */
 @media screen and (max-width: 315px) {
 
     /* Header */
