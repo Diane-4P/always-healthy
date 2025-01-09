@@ -8,7 +8,7 @@
 
 ### Browsers
 
-When opening the site in the browsers Chrome, Firefox and Edge, they all showed lagging in opening up onto the landing page. All 3 browsers also showed a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appeared at the bottom and not on the smaller screens.
+When testing the site in multiple browsers (Chrome, Firefox and Edge and Safari) they all showed lagging in opening up onto the landing page. All browsers also showed a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appeared at the bottom and not on the smaller screens.
 
 When I created a mochup of the website on **Am I Responsive**, the **Navbar** on the mobile appeared on 2 lines, which happens when the screen is less than 300px.
 
@@ -54,20 +54,20 @@ The results of the performance for the Home, Classes and Shop pages scored betwe
 After modifying the images on the site and further adjustments and styling to the pages, I re-analysed the performance, accessibility, best practices and the SEO of the website, which gave the following results:
 
 - ### Home
-- Mobile results - [Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/home-performance-mobile-score.png)
-- Desktop results - [Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/home-performance-desktop-score.png)
+- Mobile results - ![Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/home-performance-mobile-score.png)
+- Desktop results - ![Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/home-performance-desktop-score.png)
 
 - ### Classes
-- Mobile results - [Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/classes-performance-mobile-score.png)
-- Desktop results - [Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/classes-performance-desktop-score.png)
+- Mobile results - ![Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/classes-performance-mobile-score.png)
+- Desktop results - ![Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/classes-performance-desktop-score.png)
 
 - ### Shop
-- Mobile results - [Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/shop-performance-mobile-score.png)
-- Desktop results - [Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/shop-performance-desktop-score.png)
+- Mobile results - ![Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/shop-performance-mobile-score.png)
+- Desktop results - ![Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/shop-performance-desktop-score.png)
 
 - ### Contact
-- Mobile results - [Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/contact-performance-mobile-score.png)
-- Desktop results - [Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/contact-performance-desktop-score.png)
+- Mobile results - ![Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/contact-performance-mobile-score.png)
+- Desktop results - ![Lighthouse score for Always Healthy website for the Home page on desktop](/readme-images/testing/contact-performance-desktop-score.png)
 
 ### Testing user defined stories from the UX section of README.md
 
