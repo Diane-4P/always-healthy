@@ -113,27 +113,60 @@ After modifying the images on the site and further adjustments and styling to th
     - On the Classes page you can click on the call to action button to book a session.
     - At the bottom of the Classes page is a Timetable of all available classes and times.
 
-### Manual testing
-
-- Navigation bar
-    - Clicked on each menu item to verify that it goes to the correct page from the Home screen and back from the other pages.
-    - Clicked on the logo on each page to see that it goes back to the Home screen.
-    - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
-    - Check each page shows the active line under the page that you are currently on.
-- Social media icons
-    - Click on each icon to see that they go to the link address.
-    - Make sure that each icon clicked opens up in a new window.
-    - Make sure that each link opens up on the page that is associated with that icon.
-- Classes
-    - Click on all classes buttons to check that they go to the Classes page from the Home page.
-    - Hover over each call to action button to check that they change colour.
-- Contact us
-    - Check that all Contact Us buttons open up on the Contact Us page from the Home and Classes pages.
-    - Hover over each call to action button to check that they change colour.
-    - Input details into the form and miss out one field to see if the pop-up message of 'Please fill out this field' appears.
-    - Fill in the email details incorrectly to see if the pop-up message of 'Please include the @ in the email address' appears.
-    - Hover over the call to action submit button to see if it changes colour.
-    - Click the submit button to see that the information is received by Code Institute (see image below)
+### Manual testing and Functionality on each page
+- ### Home Page:
+    - Navigation bar
+        - Clicked on each menu item (Classes, Shop, Contact) to verify that it goes to the correct page from the Home screen.
+        - Clicked on the logo to see that it goes back to the Home screen.
+        - Hover over logo for responsiveness on laptops and desktops. 
+            - There is no explanation as to why it is a link, so I have added a title attribute to the logo to remedy this.
+        - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
+        - Check each page shows the active line under the page that you are currently on.
+    - Footer
+        - Click on each icon to see that they go to the link address.
+        - Make sure that each icon clicked opens up in a new window.
+        - Make sure that each link opens up on the page that is associated with that icon.
+- ### Classes Page:
+    - Navigation bar
+        - Clicked on each menu item to verify that it goes to the correct page from the Home screen and back from the other pages.
+        - Clicked on the logo on each page to see that it goes back to the Home screen.
+        - Hover over logo
+        - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
+        - Check each page shows the active line under the page that you are currently on.
+    - Footer
+        - Click on each icon to see that they go to the link address.
+        - Make sure that each icon clicked opens up in a new window.
+        - Make sure that each link opens up on the page that is associated with that icon.
+        - Click on all classes buttons to check that they go to the Classes page from the Home page.
+        - Hover over each call to action button to check that they change colour.
+- ### Shop
+    - Navigation bar
+        - Clicked on each menu item to verify that it goes to the correct page from the Home screen and back from the other pages.
+        - Clicked on the logo on each page to see that it goes back to the Home screen.
+        - Hover over logo
+        - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
+        - Check each page shows the active line under the page that you are currently on.
+    - Footer
+        - Click on each icon to see that they go to the link address.
+        - Make sure that each icon clicked opens up in a new window.
+        - Make sure that each link opens up on the page that is associated with that icon.
+- ### Contact Us Page
+    - Navigation bar
+        - Clicked on each menu item to verify that it goes to the correct page from the Home screen and back from the other pages.
+        - Clicked on the logo on each page to see that it goes back to the Home screen.
+        - Hover over logo
+        - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
+        - Check each page shows the active line under the page that you are currently on.
+    - Footer
+        - Click on each icon to see that they go to the link address.
+        - Make sure that each icon clicked opens up in a new window.
+        - Make sure that each link opens up on the page that is associated with that icon.
+        - Check that all Contact Us buttons open up on the Contact Us page from the Home and Classes pages.
+        - Hover over each call to action button to check that they change colour.
+        - Input details into the form and miss out one field to see if the pop-up message of 'Please fill out this field' appears.
+        - Fill in the email details incorrectly to see if the pop-up message of 'Please include the @ in the email address' appears.
+        - Hover over the call to action submit button to see if it changes colour.
+        - Click the submit button to see that the information is received by Code Institute (see image below)
 
 ### Further testing
 - I viewed the site on my own mobile (Huawei P30 Pro: Chrome) and the Navigation bar appeared in full and there was only the lagging of the photos on each page. When I tested it again (after the image changes) I found that I had no propblems with clicking on the links and the loading of the pages.

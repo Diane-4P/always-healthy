@@ -19,36 +19,21 @@ The gym has no membership fees, but there is a monthly fee to encourage new and 
 - ![Home page of Always Healthy site](/readme-images/home-page-owner-goals.png)
 
 ### User Stories
-
-- As a visitor to the gym, I want to know when the gym is open so that I know when I can use the gym.
-    - The opening times shows the days of the week, and opening and closing times of the gym.
-        - ![Gym Opening Times](/readme-images/gym-opening-times.png)
-- As a first time user of the website, I want to know what the membership and joining fees are so that I can compare them to other gyms.
-    - The user can see that there are no joining fees, but for a monthly fee where they can use the gym or classes at anytime.
-        - ![Membership and Joining Fees](/readme-images/membership-no-fees.png)
-- As a pensioner, I want a place that is friendly and does exercise suited to my age and that is affordable.
-    - The concession price for pensioners and the image of a mature couple meditating shows something that they can do.
-        - ![Standard and Concession Prices](/readme-images/standard-concession-prices.png)
-- As a first time visitor to the gym, I want to use the gym but I have no idea how to use the equipment. Where do I start.
-    - With the tour available you can see all the facilities plus learn how to use the equipment properly and safely.
-        - ![Tour of the Gym](/readme-images/tour-gym-first-time.png)
-- As a middle aged woman, I want a place to go where I don't feel intimidated when I exercise and ladies only events.
-    - There is a ladies only event, which includes an instructor for groups or singles. Also, outfits are available to cover you more appropriately.
-        -  ![Ladies only with Instructor if wanted](/readme-images/ladies-only-instructor.png) ![Long-sleeved top and leggins](/readme-images/ladies-long-sleeved-top-leggins.png) ![T-shirt and leggins](/readme-images/ladies-tshirt-leggins.png)
-- As a user of the site, I want to know what classes are available and book them.
-    - Classes timetable with times, class, where held and images, descriptions of classes and the ability to contact the gym.
-        - ![Classes Timetable](/readme-images/classes-timetable.png) ![Gym Classes and description](/readme-images/classes-image-description.png)
-    
-
+- 
 | As a visitor to the gym, I want to know when the gym is open so that I know when I can use the gym. | As a first time user of the website, I want to know what the membership and joining fees are so that I can compare them to other gyms. | As a pensioner, I want a place that is friendly and does exercise suited to my age and that is affordable. | As a first time visitor to the gym, I want to use the gym but I have no idea how to use the equipment. Where do I start. |
-| ------------------------- |:-------------------------:|:-------------------------:|:-------------------------:|
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 | The opening times shows the days of the week, and opening and closing times of the gym. | The user can see that there are no joining fees, but for a monthly fee where they can use the gym or classes at anytime. | The concession price for pensioners and the image of a mature couple meditating shows something that they can do. | With the tour available you can see all the facilities plus learn how to use the equiment properly and safely. |
 | ![Gym Opening Times](/readme-images/gym-opening-times.png) | ![Membership and Joining Fees](/readme-images/membership-no-fees.png) | ![Standard and Concession Prices](/readme-images/standard-concession-prices.png) | ![Tour of the Gym](/readme-images/tour-gym-first-time.png) |
+- 
+| As a middle aged woman, I want a place to go where I don't feel intimidated when I exercise and ladies only events.  |
+|----------|
+| There is a ladies only event, which includes an instructor for groups or singles. Also, outfits are available to cover you more appropriately. |
+| ![Ladies only with Instructor if wanted](/readme-images/ladies-only-instructor.png) ![Long-sleeved top and leggins](/readme-images/ladies-long-sleeved-top-leggins.png) ![T-shirt and leggins](/readme-images/ladies-tshirt-leggins.png) |
 
-| As a middle aged woman, I want a place to go where I don't feel intimidated when I exercise and ladies only events. | As a user of the site, I want to know what classes are available and book them. |
-|:----------:|:---------------:|
+| As a user of the site, I want to know what classes are available and book them. |
+|----------|
 | There is a ladies only event, which includes an instructor for groups or singles. Also, outfits are available to cover you more appropriately. | Classes timetable with times, class, where held and images, descriptions of classes and the ability to contact the gym. |
-| ![Ladies only with Instructor if wanted](/readme-images/ladies-only-instructor.png) ![Long-sleeved top and leggins](/readme-images/ladies-long-sleeved-top-leggins.png) ![T-shirt and leggins](/readme-images/ladies-tshirt-leggins.png) | ![Classes Timetable](/readme-images/classes-timetable.png) ![Gym Classes and description](/readme-images/classes-image-description.png) |
+| ![Classes Timetable](/readme-images/classes-timetable.png) ![Gym Classes and description](/readme-images/classes-image-description.png) |
 
 ## Design Choices
 
