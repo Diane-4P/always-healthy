@@ -73,7 +73,7 @@ These were the original look of the site and the Gallery was exchanged for a Sho
 
 ## Features
 
-Each page has a **header** with the responsive **logo**, linking to the Home page, in the top left hand corner and a responsive **navigation bar**, linking to all the pages on the website (Home, Classes, Shop, Contact) to the top right. The navigation bar is fixed in position and when you hover over the page titles a line appears underneath, also the page that is active has a fixed line so that users can see which page they are on. 
+Each page has a **header** with the responsive **logo**, linking to the Home page with a title of "Link back Home", in the top left hand corner and a responsive **navigation bar**, linking to all the pages on the website (Home, Classes, Shop, Contact) to the top right. The navigation bar is fixed in position and when you hover over the page titles a line appears underneath, also the page that is active has a fixed line so that users can see which page they are on. 
 
 The **footer** includes the **social media icons** of **Facebook, Twitter and Instagram,** linking them to their respective home pages. The footer also includes the **copyright information** and the **registered address** of the company. All buttons on each page change colour when you **hover** over them to click the link or send infomation to the gym via the contact form.
 
@@ -83,17 +83,34 @@ The Home page features a **hero image** of the **Worcester Cathedral** with a te
 
 There is a welcome to the site with information on how to join, opening times and various payment methods. There are images of various people enjoying and using the gym, which shows that the gym is a happy enviroment for all age groups to exercise and become healthier. There are also **call to action buttons** guiding the user to go look at the classes that are available or to contact the gym if they wish to join a class or ask for more information.
 
+- ![Home page of Always Healthy site](/readme-images/home-page-owner-goals.png)
+
 ### Classes
 
-The Classes page features 10 images of the classes that are available, so that you can see from the photos and the description below what the class entails and whether it would be suitable for the young or mature members of the gym. There is also a **call to action button** below each description to join and book one of the classes. To help keep people informed of classes there is a timetable at the bottom of the page showing what time, the class and where the class is held, which was created using a **table** for uniformity and its 2 tone colours with transparency so that the colours didn't overwelm the text. 
+The Classes page features 10 images of the classes that are available, so that you can see from the photos and the description below what the class entails and whether it would be suitable for the young or mature members of the gym. There is also a **call to action button** below the classes descriptions to join and book one of the classes via the Contact page. 
+
+- ![Gym Classes and description](/readme-images/classes-image-description.png)
+
+To help keep people informed of classes there is a timetable at the bottom of the page showing what time, the class and where the class is held, which was created using a **table** for uniformity and its 2 tone colours with transparency so that the colours didn't overwelm the text. 
+
+- ![Classes Timetable](/readme-images/classes-timetable.png)
 
 ### Shop
 
 The Shop page is laid out in columns with the image and a small description of the product and the price, to show that there is clothing, trainers, and drinks bottles available for new or recurring members of the gym, whether young or mature. On the mobile the design choice of 2 columns wide was to show more items on the smaller screen so that users would not get discouraged by seeing one product at a time. This will be changed in the future so that products can be purchased online.
 
+- ### Clothing
+    - ![Clothing products](/readme-images/all-clothing-products.png)
+- ### Footware
+    - ![Footware products](/readme-images/all-footware-products.png)
+- ### Bottles
+    - ![Bottles products](/readme-images/all-bottles-products.png)
+
 ### Contact
 
-The Contact page features a **contact form**, which requests an enquirers first and last names, email address and phone number. You also have a box to put details of your message, whether its to join the club, join a class or ask questions for further details etc. There is also a **send button** at the bottom of the form. The form has a transparent background so that you can see the full page image of a woman using the dumbbells. This image shows what the gym is like and to encourage users to join the gym. All the information input onto the form is **required** so if any box is left empty then a message appears to let the user know that the details are required. There is also **placeholer text** to show what format the input text needs to be in.
+The Contact page features a **contact form**, which requests an enquirers first and last names, email address and phone number. You also have a box to put details of your message, whether its to join the club, join a class or ask questions for further details etc. There is also a **send button** at the bottom of the form. The form has a transparent background so that you can see the full page image of a woman using the dumbbells. This image shows what the gym is like and to encourage users to join the gym. All the information input onto the form is **required** so if any box is left empty then a message appears to let the user know that the details are required. There is also **placeholer text** to show what format the input text needs to be in. Once the form is fully filled in then you can use the **call to action** button and **send message** to the gym.
+
+![Contact Us page](/readme-images/contact-us-page.png)
 
 ## Features to Implement in the Future
 
@@ -133,6 +150,8 @@ The Contact page features a **contact form**, which requests an enquirers first 
     - Used to convert jpg images to webp images
 - [Am I Responsive](https://ui.dev/amiresponsive)
     - Checking the responsiveness of the website.
+- [Deque University](https://dequeuniversity.com/rules/axe/4.10/color-contrast)
+    - Checking the colour contrast of my Shop page.
  
 ## Testing
 

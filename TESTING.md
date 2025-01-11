@@ -1,4 +1,4 @@
-# Always Healthy Website - Testing details
+# Always Healthy Website - Testing Details
 
 [View README.md file](/README.md)
 
@@ -48,16 +48,16 @@ After making further adjustments to the site I retested the HTML and CSS with th
 - ### Lighthouse
 
 When looking at the performance, accessibility, best practices and the SEO of the website, I used **Lighthouse** in Google's development tools. The main downfall of the site is in it performance as the photos were not of the correct size in both height and width, in megabytes, and format. They also need to be more responsive over the different sizes of screens. This has caused lagging on the site when loading and linking to the other pages.
-    - This still needs to be corrected.
+- This has been looked at by modifying the images by adjusting the size, height and width, and format (see further down).
 
-There was also a small problem, on all the pages, with the ordering of the headings elements not being in a sequentially-descending order, but this has been rectified. On the shop there was another problem with the background and foreground colors not having a sufficient contrast ratio. When I looked at [Deque University's](https://dequeuniversity.com/rules/axe/4.10/color-contrast) site of color contrast for the colour I was using it came back with a blue colour, which was very bright and did not go with the colour design of my site, so I chose a colour from my pallet and I think that the contrast looks better than the blue they chose.
+There was also a small problem, on all the pages, with the ordering of the headings elements not being in a sequentially-descending order, but this has been rectified. On the shop there was another problem with the background and foreground colors not having a sufficient contrast ratio. When I looked at [Deque University's](https://dequeuniversity.com/rules/axe/4.10/color-contrast) site of color contrast for the colours I was using it did not give a good ratio for the colours. I changed the densities of the colours but it still did not like the contrast. In the end it did give a good contrast ratio for white text on the Dynamo background colour so that is what I chose.
 
 The results of the performance for the Home, Classes and Shop pages scored between 30-40 and the Contact page scored 71 for desktop but for the mobile it was 63. With accessability all of the pages scored 100 except for the Shop page with a score of 95 and with best practices and the SEO all pages getting a score of 100. 
 
 ![Lighthouse score for Always Healthy website for the Contact page on desktop](/readme-images/testing/contact-performance-71-score.png)
 ![Lighthouse score for Always Healthy website for the Shop page on desktop](/readme-images/testing/shop-performance-33-score.png)
 
-After modifying the images on the site and further adjustments and styling to the pages, I re-analysed the performance, accessibility, best practices and the SEO of the website, which gave the following results:
+After modifying the images on the site and further adjustments and styling to the pages, I re-analysed the performance, accessibility, best practices and the SEO of the website in Lighthouse, which is part of Google's Developer tools, which gave the following results:
 
 - ### Home
 - Mobile results - ![Lighthouse score for Always Healthy website for the Home page on mobile](/readme-images/testing/home-performance-mobile-score.png)
@@ -88,19 +88,19 @@ After modifying the images on the site and further adjustments and styling to th
 
 - As a pensioner, I want a place that is friendly and does exercise suited to my age and that is affordable.
     - The Home page gives the concession prices for pensioners.
-    - From the prices there are call to action buttons to take him to the Classes page.
+    - From the Home page there is a call to action button to take him to the Classes or Contact page.
     - The Classes page shows all the different classes available with photos and descriptions for him to see what is suitable.
     - Classes for Over 50s and low-impact exercises are shown on the Classes page.
     - From the Classes page a call to action button takes you to the Contact Us page to book a class or ask further questions.
     - The Timetable at the bottom of the Classes page gives the times of each class.
 
 - As a first time visitor to the gym, I want to use the gym but I have no idea how to use the equipment. Where do I start.
-    - On the Home page there are details of a tour of the gym and showing how to use the equipment.
+    - On the Home page there are details of a tour of the gym, showing him around the facilities and how to use the equipment.
     - A call to action button takes you to the Contact page to book a visit to the gym.
     - He can get further information on the classes and see what the gym looks like from the photos on the Classes page.
 
 - As a middle aged woman, I want a place to go where I don't feel intimidated when I exercise and ladies only events.
-    - From the Home page you can navigate to the classes to look at classes that are suitable.
+    - From the Home page you can navigate to the classes to see what is suitable.
     - On the Classes page you can see that there is a ladies only class available.
     - The Timetable at the bottom of the Classes page will gives times of classes available.
     - You can navigate to the Shop page and see that there is clothing suitable for ladies who may want to be more comfortable while at the gym.
@@ -110,7 +110,7 @@ After modifying the images on the site and further adjustments and styling to th
 
 - As a user of the site, I want to know what classes are available and book them.
     - The user can navigate to the Classes page from the Home page.
-    - On the Classes page you can click on the call to action button to book a session.
+    - On the Classes page you can click on the call to action button to Contact Us and book a session.
     - At the bottom of the Classes page is a Timetable of all available classes and times.
 
 ### Manual testing and Functionality on each page
@@ -198,7 +198,7 @@ After modifying the images on the site and further adjustments and styling to th
         - Hover over the call to action button to check the responsiveness and that they change colour.
         - Input details into the form and miss out one field to see if the pop-up message of 'Please fill out this field' appears.
         - Fill in the email details incorrectly to see if the pop-up message of 'Please include the @ in the email address' appears..
-        - Click the submit button to see that the information is received by Code Institute (see image below).
+        - Click the submit button to see that the information is received by Code Institute (see image below) after all fields are filled in correctly.
     - Footer
         - Click on each icon to see that they go to the link address.
         - Make sure that each icon clicked opens up in a new window.
