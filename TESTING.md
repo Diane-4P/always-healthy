@@ -219,10 +219,10 @@ When the fields on the Contact Us form was filled in no pop-up messages appeared
 - ![Email information sent to Code Institute](/readme-images/testing/email-info-code-institute-received.png)
 
 The browsers Chrome, Edge and Firefox shows a white edge on the right hand side of the Home screen indicating the width was wider than the larger viewports as the scroll bar appears at the bottom and not on the smaller screens.
-    - This still needs to be looked into.
+- This still needs to be looked into.
 
 The Navbar on the mobile screen of less than 300px shows on 2 lines and maybe needs to be changed to a burger bar and dropdown menu.
-    - Instead it was decided that the home link could be removed as the logo can be used to get back to the home screen. A **@media query** for mobile screens smaller than 315px was used to hide the Home link on the Navbar and once it was included on all pages the response on the smaller device of the Galaxy fold showed it working correctly.
+- Instead it was decided that the home link could be removed as the logo can be used to get back to the home screen. A **@media query** for mobile screens smaller than 315px was used to hide the Home link on the Navbar and once it was included on all pages the response on the smaller device of the Galaxy fold showed it working correctly.
 
 - ### Media query applied.
 ```
@@ -234,3 +234,10 @@ The Navbar on the mobile screen of less than 300px shows on 2 lines and maybe ne
         display: none;
         }
     }
+```
+
+When on larger screens of 4K and 5K the website only covered about 30% of these large screens.
+- To make the site look aesthetically better a max-width of 2400px was included on the main body and header of the website.
+
+When hovering over the logo to take back to the Home screen, although I new that I had linked it back to the Home screen other users may not know. 
+- There is no explanation as to why it is a link, so I have added a title attribute to the logo of "Link back Home" to remedy this.
