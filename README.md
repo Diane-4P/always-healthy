@@ -114,7 +114,7 @@ The Contact page features a **contact form**, which requests an enquirers first 
 
 ## Features to Implement in the Future
 
-- Set up social media pages for Facebook, Twitter and LinkIn to encourage more people to join.
+- Set up social media pages for Facebook, Twitter and LinkedIn to encourage more people to join.
 - Add a checkout basket and to receive payments to the shop, so can purchase products online.
 - Add testimonials to the Home page to let users see how other gym members are enjoying the gym.
 - Add FAQ table with drop down answers to the Home page so users get answers to their questions quicker.
@@ -214,14 +214,14 @@ To run the site locally, you can clone the repository into the code editor of yo
         - Ladies Only - [Stockvault](https://www.stockvault.net/photo/203704/lifting-weights) (2016) Author Pixaby and Licence Creative Commons
         - Spinning - [Unsplash](https://unsplash.com/photos/women-taking-exercise-on-black-stationary-bikes-in-front-of-gray-concrete-wall-A_ftsTh53lM) (2018) by Trust Tru Katsande
         - Omnia HIIT - [Technogym](https://www.technogym.com/en-INT/omnia-class/) from their website
-    - Shop page
+    - Shop page (images in order of website)
         - Clothing
             1. [Pexels](https://www.pexels.com/photo/woman-and-man-posing-in-gym-clothing-17917176/) (2023) by Bamboo Ave
             2. [Pexels](https://www.pexels.com/photo/two-mature-women-wearing-black-gym-clothes-8374555/) (2021) by Darina Belonogova
-            3. [Pexels](https://www.pexels.com/photo/muscular-man-in-sportswear-20400652/) (2024) by Jaime Blanchart
-            4. [Pexels](https://www.pexels.com/photo/smiling-young-black-sportswoman-warming-up-before-training-6311255/) (2020) by Monstera Production
-            5. [Pexels](https://www.pexels.com/photo/man-and-woman-stretching-together-4852749/) (2020) by Ketut Subiyanto
-            6. [Pexels](https://www.pexels.com/photo/couple-practicing-yoga-6787501/) (2021) by Marcus Aurelius
+            3. [Pexels](https://www.pexels.com/photo/man-and-woman-stretching-together-4852749/) (2020) by Ketut Subiyanto
+            4. [Pexels](https://www.pexels.com/photo/couple-practicing-yoga-6787501/) (2021) by Marcus Aurelius
+            5. [Pexels](https://www.pexels.com/photo/muscular-man-in-sportswear-20400652/) (2024) by Jaime Blanchart
+            6. [Pexels](https://www.pexels.com/photo/smiling-young-black-sportswoman-warming-up-before-training-6311255/) (2020) by Monstera Production
             7. [Pexels](https://www.pexels.com/photo/happy-woman-holding-a-tennis-racket-6250893/) (2020) by Anna Shvets
             8. [Pexels](https://www.pexels.com/photo/woman-drinking-water-from-reusable-bottle-6283505/) (2020) by Anna Shvets
         - Footwear
