@@ -6,47 +6,45 @@
 
 ## Introduction
 
-Our main goal at Always Healthy is to encourages new users to visit the gym and join to get healthy on a physical and spiritual level. It targets not only the young and professional to join the gym to use the equipment but also encourages the mature and elderly to do Yoga, Pilates and meditation, for the well being of the people who attend the gym.
-
-There is no membership for the gym but we do offer a monthly fee for clients to be able to use all the services that are available. We also offer one off daily or single use standard fee and concessions for the pensioners.
+Our main goal at Always Healthy is to encourage new users to visit the gym and join to get healthy on a physical and spiritual level. It targets not only the young and professional to join the gym to use the equipment but also encourages the mature and elderly to do Yoga, Pilates or meditation, for the well being of the people who attend the gym. The simple design helps to give users the basic information needed to answer their initial questions, plus helps them to look further into the classes and to contact us for information or to book session.
 
 ## User Experience (UX)
 
 ### Gym Owners Goals
 
-The client is interested in attracting new users to join the gym and to continue to use the facilities and also encourage and retain current gym clients. Also, the client wants to encourage senior citizens to join the gym looking for low-impact exercises for mobility, strength and balance.
+The client is interested in attracting new users to join the gym and to continue to use the facilities and also encourage and retain current gym clients. Also, the client wants to encourage senior citizens to join the gym looking for low-impact exercises for mobility, strength and balance. 
+
+The gym has no membership fees, but there is a monthly fee to encourage new and repeat users to use the gym regularly. We also offer reduced prices for the money conscious and pensioners, with a variety of classes available to appeal to the younger and more mature clients to partake in. If users have any questions then they can always contact us, where we will be happy to give them further information.
 
 - ![Home page of Always Healthy site](/readme-images/home-page-owner-goals.png)
 
 ### User Stories
 
 - As a visitor to the gym, I want to know when the gym is open so that I know when I can use the gym.
-- ![Gym Opening Times](/readme-images/gym-opening-times.png)
+    - The opening times shows the days of the week, and opening and closing times of the gym.
+        - ![Gym Opening Times](/readme-images/gym-opening-times.png)
 - As a first time user of the website, I want to know what the membership and joining fees are so that I can compare them to other gyms.
-[Membership and Joining Fees](/readme-images/membership-no-fees.png)
+    - The user can see that there are no joining fees, but for a monthly fee where they can use the gym or classes at anytime.
+        - ![Membership and Joining Fees](/readme-images/membership-no-fees.png)
 - As a pensioner, I want a place that is friendly and does exercise suited to my age and that is affordable.
-[Standard and Concession Prices](/readme-images/standard-concession-prices.png)
+    - The concession price for pensioners and the image of a mature couple meditating shows something that they can do.
+        - ![Standard and Concession Prices](/readme-images/standard-concession-prices.png)
 - As a first time visitor to the gym, I want to use the gym but I have no idea how to use the equipment. Where do I start.
-[Tour of the Gym](/readme-images/tour-gym-first-time.png)
+    - With the tour available you can see all the facilities plus learn how to use the equiment properly and safely.
+        - ![Tour of the Gym](/readme-images/tour-gym-first-time.png)
 - As a middle aged woman, I want a place to go where I don't feel intimidated when I exercise and ladies only events.
-[Ladies only with Instructor if wanted](/readme-images/ladies-only-instructor.png)
+    - There is a ladies only event, which includes an instructor for groups or singles. Also, outfits are available to cover you more appropriately.
+        -  ![Ladies only with Instructor if wanted](/readme-images/ladies-only-instructor.png) ![Long-sleeved top and leggins](/readme-images/ladies-long-sleeved-top-leggins.png) ![T-shirt and leggins](/readme-images/ladies-tshirt-leggins.png)
 - As a user of the site, I want to know what classes are available and book them.
-- ![Classes and Timetable of theGym](/readme-images/classes-timetable.png)
-
-
-|As a visitor to the gym, |
-|I want to know when the  |
-|gym is open so that I    |  
-|know when I can use the  |
-|gym.                     |
-|                         |
+    - Classes timetable with times, class, where held and images, descriptions of classes and the ability to contact the gym.
+        - ![Classes Timetable](image-3.png) ![Gym Classes and description](image.png)
 
 
 ## Design Choices
 
 ### Colour
 
-The colours chosen were obtained from a sample of the blue on the Home page hero image and put into a pallet picker from mycolor.space and I chose the matching gradient pallet. These were converted into RGB by using Rapid Tables for transparency and to obtain the names for the colours I used colornamer.robertcooper.me (Shiva Blue rgb(148, 216, 251), Electric Eel rgb(140,188, 237), Portage rgb(143, 158, 217), Lavender Purple rgb(151, 126, 187), Bermuda Onion rgb(155, 95, 150), and Dynamo rgb(151, 64, 106))
+The colours chosen were obtained from a sample of the blue on the Home page hero image and put into a pallet picker from mycolor.space and I chose the matching gradient pallet. These were converted into RGB by using Rapid Tables so that the transparency coould be used and to obtain the names for the colours I used colornamer.robertcooper.me (Shiva Blue rgb(148, 216, 251), Electric Eel rgb(140,188, 237), Portage rgb(143, 158, 217), Lavender Purple rgb(151, 126, 187), Bermuda Onion rgb(155, 95, 150), and Dynamo rgb(151, 64, 106))
 
 ![Matching Gradient colours from mycolor.space](/readme-images/color-design-matching-gradient.png)
 
