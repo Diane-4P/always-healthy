@@ -43,7 +43,7 @@ Within Chrome's developer tools I also tested the larger screens of 4K screen of
     - ### The error was corrected but nothing was done about line 2 as it was an imported style sheet that couldn't be comfirmed by this checker and this was the result of the checker.
     - ![Results of css checker showing no errors but still 1 warning](/readme-images/testing/style-css-validator-result-no-errors-warning.png)
 
-After making further adjustments to the site I retested the HTML and CSS with the validators again and they showed now errors.
+After making further adjustments to the site I retested the HTML and CSS with the validators again and they showed no errors.
 
 - ### Lighthouse
 
