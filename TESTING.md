@@ -120,53 +120,91 @@ After modifying the images on the site and further adjustments and styling to th
         - Clicked on the logo to see that it goes back to the Home screen.
         - Hover over logo for responsiveness on laptops and desktops. 
             - There is no explanation as to why it is a link, so I have added a title attribute to the logo to remedy this.
-        - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
-        - Check each page shows the active line under the page that you are currently on.
+        - Check when hovered over the text "Link back Home" appears.
+        - Hovered over each page in the menu to see that the responsiveness line appears when the curser is over the text.
+        - Check the page shows the active line under the page that you are currently on.
+        - Verify the responsiveness of the navigation bar on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+            - On the 4K and 5K screens as the header is fixed the menu went to the far right of the page outside of the sites width, so a max-width was added to fix this.
+        - Verify the responsiveness of the menu not showing on mobiles smaller than the 320px per the Google's developer tools (Galaxy fold 270px).
+    - Hero image and cover text
+        - Verify the responsiveness of the image and text on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Check the cover text moves from the left on mobiles, to the right on tablets and laptops, to more central on screen 1800px and higher.
+    - Main section
+        - Verify the responsiveness of the images and text on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools, from single column on mobiles, 2 columns on tablet, 3 columns on smaller laptops, 4 columns on larger laptops and larger screens.
+            - On the 4K and 5K screens the site only covered about 30% of the screen, so a max-width was added to fix this.
+        - Click on the buttons (See Classes and Contact Us) to check that they go to the correct page from the Home screen.
+        - Hover over each call to action button to check the responsiveness and that they change colour.
     - Footer
         - Click on each icon to see that they go to the link address.
         - Make sure that each icon clicked opens up in a new window.
-        - Make sure that each link opens up on the page that is associated with that icon.
+        - Hover over the icon to its responiveness on laptops and desktops.
+        - Verify the responsiveness of the navigation bar on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Verify the responsiveness of the menu not showing on mobiles smaller than the 320px per the Google's developer tools (Galaxy fold 270px).
 - ### Classes Page:
     - Navigation bar
-        - Clicked on each menu item to verify that it goes to the correct page from the Home screen and back from the other pages.
-        - Clicked on the logo on each page to see that it goes back to the Home screen.
-        - Hover over logo
-        - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
-        - Check each page shows the active line under the page that you are currently on.
+        - Clicked on each menu item (Home, Shop, Contact) to verify that it goes to the correct page from the Home screen.
+        - Clicked on the logo to see that it goes back to the Home screen.
+        - Hover over logo for responsiveness on laptops and desktops. 
+            - There is no explanation as to why it is a link, so I have added a title attribute to the logo to remedy this.
+        - Check when hovered over the text "Link back Home" appears.
+        - Hovered over each page in the menu to see that the responsiveness line appears when the curser is over the text.
+        - Check the page shows the active line under the page that you are currently on.
+        - Verify the responsiveness of the navigation bar on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Verify the responsiveness of the menu not showing on mobiles smaller than the 320px per the Google's developer tools (Galaxy fold 270px).
+    - Main section
+        - Verify the responsiveness of the images and text on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools, from single column on mobiles, 2 columns on tablet, 3 columns on smaller laptops, 4 columns on larger laptops, 6 columns on 1800px screen width, 7 columns on larger screens.
+        - Verify the responsiveness of the Timetable on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools. 
+        - Click on the button Contact Us to check that they go to the correct page from the Classes screen.
+        - Hover over the call to action button to check the responsiveness and that they change colour.
     - Footer
         - Click on each icon to see that they go to the link address.
         - Make sure that each icon clicked opens up in a new window.
-        - Make sure that each link opens up on the page that is associated with that icon.
-        - Click on all classes buttons to check that they go to the Classes page from the Home page.
-        - Hover over each call to action button to check that they change colour.
+        - Hover over the icon to its responiveness on laptops and desktops.
+        - Verify the responsiveness of the navigation bar on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Verify the responsiveness of the menu not showing on mobiles smaller than the 320px per the Google's developer tools (Galaxy fold 270px).
 - ### Shop
     - Navigation bar
-        - Clicked on each menu item to verify that it goes to the correct page from the Home screen and back from the other pages.
-        - Clicked on the logo on each page to see that it goes back to the Home screen.
-        - Hover over logo
-        - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
-        - Check each page shows the active line under the page that you are currently on.
+        - Clicked on each menu item (Home, Classes, Contact) to verify that it goes to the correct page from the Home screen.
+        - Clicked on the logo to see that it goes back to the Home screen.
+        - Hover over logo for responsiveness on laptops and desktops. 
+            - There is no explanation as to why it is a link, so I have added a title attribute to the logo to remedy this.
+        - Check when hovered over the text "Link back Home" appears.
+        - Hovered over each page in the menu to see that the responsiveness line appears when the curser is over the text.
+        - Check the page shows the active line under the page that you are currently on.
+        - Verify the responsiveness of the navigation bar on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Verify the responsiveness of the menu not showing on mobiles smaller than the 320px per the Google's developer tools (Galaxy fold 270px).
+    - Main section
+        - Verify the responsiveness of the images and text on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools, from 2 columns on mobiles and tablet, 4 columns on laptops and larger screens.
+            - The text is a Shiva Blue colour on the Dynamo background colour, but failed on the contrast of colours. Found that the site was picking up on Bootstraps colour Blue Raspberry and not mine and to get the better contrast I changed all the font colours to white.
     - Footer
         - Click on each icon to see that they go to the link address.
         - Make sure that each icon clicked opens up in a new window.
-        - Make sure that each link opens up on the page that is associated with that icon.
+        - Hover over the icon to its responiveness on laptops and desktops.
+        - Verify the responsiveness of the navigation bar on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Verify the responsiveness of the menu not showing on mobiles smaller than the 320px per the Google's developer tools (Galaxy fold 270px).
 - ### Contact Us Page
     - Navigation bar
-        - Clicked on each menu item to verify that it goes to the correct page from the Home screen and back from the other pages.
-        - Clicked on the logo on each page to see that it goes back to the Home screen.
-        - Hover over logo
-        - Hovered over each page in the menu to see that the responsive line appears when the curser is over the text.
-        - Check each page shows the active line under the page that you are currently on.
+        - Clicked on each menu item (Home, Classes, Shop) to verify that it goes to the correct page from the Home screen.
+        - Clicked on the logo to see that it goes back to the Home screen.
+        - Hover over logo for responsiveness on laptops and desktops. 
+            - There is no explanation as to why it is a link, so I have added a title attribute to the logo to remedy this.
+        - Check when hovered over the text "Link back Home" appears.
+        - Hovered over each page in the menu to see that the responsiveness line appears when the curser is over the text.
+        - Check the page shows the active line under the page that you are currently on.
+        - Verify the responsiveness of the navigation bar on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Verify the responsiveness of the menu not showing on mobiles smaller than the 320px per the Google's developer tools (Galaxy fold 270px).
+    - Main section
+        - Verify the responsiveness of the image and form on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Hover over the call to action button to check the responsiveness and that they change colour.
+        - Input details into the form and miss out one field to see if the pop-up message of 'Please fill out this field' appears.
+        - Fill in the email details incorrectly to see if the pop-up message of 'Please include the @ in the email address' appears..
+        - Click the submit button to see that the information is received by Code Institute (see image below).
     - Footer
         - Click on each icon to see that they go to the link address.
         - Make sure that each icon clicked opens up in a new window.
-        - Make sure that each link opens up on the page that is associated with that icon.
-        - Check that all Contact Us buttons open up on the Contact Us page from the Home and Classes pages.
-        - Hover over each call to action button to check that they change colour.
-        - Input details into the form and miss out one field to see if the pop-up message of 'Please fill out this field' appears.
-        - Fill in the email details incorrectly to see if the pop-up message of 'Please include the @ in the email address' appears.
-        - Hover over the call to action submit button to see if it changes colour.
-        - Click the submit button to see that the information is received by Code Institute (see image below)
+        - Hover over the icon to its responiveness on laptops and desktops.
+        - Verify the responsiveness of the navigation bar on mobiles, tablets, laptops, 4K and 5K screens on Google's developer tools.
+        - Verify the responsiveness of the menu not showing on mobiles smaller than the 320px per the Google's developer tools (Galaxy fold 270px).
 
 ### Further testing
 - I viewed the site on my own mobile (Huawei P30 Pro: Chrome) and the Navigation bar appeared in full and there was only the lagging of the photos on each page. When I tested it again (after the image changes) I found that I had no propblems with clicking on the links and the loading of the pages.

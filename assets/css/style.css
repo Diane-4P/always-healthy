@@ -247,6 +247,7 @@ main {
 
 /* Contrast for the text */
 #shop .custom-bg-label {
+    /* Dynamo */
     background-color: #97406a;
     padding: 18px 5px;
 }
