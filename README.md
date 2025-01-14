@@ -4,19 +4,41 @@
 
 ![Home page of Always Healthy gym website with Worcester Cathedral in the background](/readme-images/mochups-website-always-healthy-gym.png)
 
+****
+
 ## Introduction
 
 Our main goal at Always Healthy is to encourage new users to visit the gym and join to get healthy on a physical and spiritual level. It targets not only the young and professional to join the gym to use the equipment but also encourages the mature and elderly to do Yoga, Pilates or meditation, for the well being of the people who attend the gym. The simple design helps to give users the basic information needed to answer their initial questions, plus helps them to look further into the classes and to contact us for information or to book session.
 
+****
+
+## Table of Contents
+
+- [User Experience](#user-experience-ux)
+- [Designs](#design-choices)
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits-references)
+- [Acknowledgements](#acknowledgements)
+
+****
+
 ## User Experience (UX)
+
+## Strategy
 
 ### Gym Owners Goals
 
-The client is interested in attracting new users to join the gym and to continue to use the facilities and also encourage and retain current gym clients. Also, the client wants to encourage senior citizens to join the gym looking for low-impact exercises for mobility, strength and balance. 
+The client is interested in attracting new users to join the gym and to continue to use the facilities. The client wants to encourage and retain current gym clients. Also, the client wants more senior citizens to join the gym looking for low-impact exercises for mobility, strength and balance. 
 
 The gym has no membership fees, but there is a monthly fee to encourage new and repeat users to use the gym regularly. We also offer reduced prices for the money conscious and pensioners, with a variety of classes available to appeal to the younger and more mature clients to partake in. If users have any questions then they can always contact us, where we will be happy to give them further information.
 
 - ![Home page of Always Healthy site](/readme-images/home-page-owner-goals.png)
+
+## Scope
 
 ### User Stories
 - 
@@ -35,21 +57,50 @@ The gym has no membership fees, but there is a monthly fee to encourage new and 
 | There is a ladies only event, which includes an instructor for groups or singles. Also, outfits are available to cover you more appropriately. | Classes timetable with times, class, where held and images, descriptions of classes and the ability to contact the gym. |
 | ![Classes Timetable](/readme-images/classes-timetable.png) ![Gym Classes and description](/readme-images/classes-image-description.png) |
 
+### What a User may want
+
+- As a new visitor to the site I want tobe able to see what other people say about the gym.
+- As a new user of the site I want to see the gyms social media pages to see what the gym is like.
+- As a user of the site I want to be able to purchase any clothing or equipment I need online.
+
+## Structure
+
+The website originally had 3 separate pages of Home, Gallery and Contact but this was changed to split the Gallery and include the images within the Classes and Shop pages.
+
+- The Home page is made up of a Welcome, Opening Times, Monthly and Pay As You Go payment methods.
+- The Classes page is of pictures of the people using and doing the classes that are described below each image. It also, shows a Timetable of when the classes are available.
+- The Shop is showing images of clothing, footware and drinks bottles that are available at the gym.
+- The Contact page is a form in which you can contact the gym with questions or to book classes.
+
+****
+
 ## Design Choices
+
+## Surface
 
 ### Colour
 
-The colours chosen were obtained from a sample of the blue on the Home page hero image and put into a pallet picker from mycolor.space and I chose the matching gradient pallet. These were converted into RGB by using Rapid Tables so that the transparency coould be used and to obtain the names for the colours I used colornamer.robertcooper.me (Shiva Blue rgb(148, 216, 251), Electric Eel rgb(140,188, 237), Portage rgb(143, 158, 217), Lavender Purple rgb(151, 126, 187), Bermuda Onion rgb(155, 95, 150), and Dynamo rgb(151, 64, 106))
+The colours chosen were obtained from a sample of the blue on the Home page hero image and put into a pallet picker from [mycolor.space](https://mycolor.space/) where I chose the matching gradient pallet with blues and purples. These were converted into RGB by using [Rapid Tables](https://www.rapidtables.com/convert/color/hex-to-rgb.html?hex=97406a) so that the transparency coould be used and to obtain the names for the colours I used [colornamer.robertcooper.me](https://colornamer.robertcooper.me/) (Shiva Blue rgb(148, 216, 251), Electric Eel rgb(140,188, 237), Portage rgb(143, 158, 217), Lavender Purple rgb(151, 126, 187), Bermuda Onion rgb(155, 95, 150), and Dynamo rgb(151, 64, 106))
 
 ![Matching Gradient colours from mycolor.space](/readme-images/color-design-matching-gradient.png)
 
 ### Typography
 
-The Montserrat was used for the main font on the website with Sans-serif as its fallback font, just in case the main font does not get imported to the website correctly. Montserrat is used frequently in programming due to its clean look. The headings had the Rubik font for a subtle different look, which also has the Sans-serif as the fallback font. For the logo the Rouge Script was used for its decorative properties, with the Serif font as its fallback.
+For the fonts I used [Google Fonts](https://fonts.google.com/). The Montserrat was used for the main font on the website with Sans-serif as its fallback font, just in case the main font does not get imported to the website correctly. Montserrat is used frequently in programming due to its clean look. The headings had the Rubik font for a subtle different look, which also has the Sans-serif as the fallback font. For the logo the Rouge Script was used for its decorative properties, with the Serif font as its fallback.
+
+The following code was imported into the top of my style.css file:
+
+```
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rouge+Script&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+```
 
 ### Imagery
 
-The main image on the Home page is a photo of Worcester's Cathedral and as a land mark of the town it shows the city the gym is located in, with a banner that immediately lets the user know what the site is about.
+The main image on the Home page is a photo of Worcester's Cathedral and as a land mark of the town, it shows the city the gym is located in, with a banner that immediately lets the user know what the site is about. As the website is for a project and I had no images to use, but I wanted to show that users of the gym were happy while working out at the gym. All the other images were sourced from [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/), [Stockvault](https://www.stockvault.net/), [Pixaby](https://pixabay.com/), [Pikwizard](https://pixabay.com/) and [Technogym](https://www.technogym.com/en-INT/omnia-class/). You can find the full list of each individual image in the [credits](#credits-references). All images have **alt tags** with text for screen readers to describe the image, or if the image fails. I resized the images using [Tiny WOW](https://tinywow.com/image/resize), compressed them to make the file size smaller with [TinyPNG](https://tinypng.com/) and [Image Compressor](https://imagecompressor.com/), and then I finally changed the format of the images from jpg to webp, using an extension to Chrome of **Convert WebP to JPG**.
+
+****
+
+## Skeleton
 
 ## Wireframes
 These were the original look of the site and the Gallery was exchanged for a Shop page which in the future will enable users to purchase online.
@@ -71,33 +122,37 @@ These were the original look of the site and the Gallery was exchanged for a Sho
     - [For Tablet](/readme-images/Wireframes/Contact/contact-tablet-wireframe.png)
     - [For Desktop](/readme-images/Wireframes/Contact/contact-desktop-wireframe.png)
 
+****
+
 ## Features
 
-Each page has a **header** with the responsive **logo**, linking to the Home page with a title of "Link back Home", in the top left hand corner and a responsive **navigation bar**, linking to all the pages on the website (Home, Classes, Shop, Contact) to the top right. The navigation bar is fixed in position and when you hover over the page titles a line appears underneath, also the page that is active has a fixed line so that users can see which page they are on. 
+### Universal across the site
 
-The **footer** includes the **social media icons** of **Facebook, Twitter and Instagram,** linking them to their respective home pages. The footer also includes the **copyright information** and the **registered address** of the company. All buttons on each page change colour when you **hover** over them to click the link or send infomation to the gym via the contact form.
+Each page has a **header** with the responsive **logo**, linking to the Home page with a title of "Link back Home" to inform the users where the link goes, in the top left hand corner. A responsive **navigation bar**, linking to all the pages on the website (Home, Classes, Shop, Contact) to the top right. The navigation bar is fixed in position and when you hover over the page titles a line appears underneath. The page that is active has a fixed line so that users can see which page they are on. Each page has a separate title so you can tell from the tab which page you are on.
+
+The **footer** includes the **social media icons** of **Facebook, Twitter and Instagram,** linking them to their respective home pages, which opens in a new page, due to the **target="_blank"**. The footer also includes the **copyright information** and the **registered address** of the company. All buttons on each page change colour when you **hover** over them to click the link or send infomation to the gym via the contact form.
 
 ### Home
 
-The Home page features a **hero image** of the **Worcester Cathedral** with a text overlay with the text *Always Healthy, Keeping healthy in Worcester, Come and join us in an atmosphere that will keep you fit and healthy* to encourage users to join the gym. The overlay has a transparent background so the the view of the Cathedral is still visible, but does not impose on the words to give maximum impact when landing on the page.
+The Home page features a **hero image** of the **Worcester Cathedral** with a text overlay with the text **"Always Healthy, Keeping healthy in Worcester, Come and join us in an atmosphere that will keep you fit and healthy"** to encourage users to join the gym. The overlay has a transparent background so the the view of the Cathedral is still visible, but does not impose on the words to give maximum impact when landing on the page. The image is still showing a 5 second load time which is impacting on the performance of the mobile.
 
-There is a welcome to the site with information on how to join, opening times and various payment methods. There are images of various people enjoying and using the gym, which shows that the gym is a happy enviroment for all age groups to exercise and become healthier. There are also **call to action buttons** guiding the user to go look at the classes that are available or to contact the gym if they wish to join a class or ask for more information.
+There is a welcome to the site with information on how to join, opening times and various payment methods. There are images of various people enjoying and using the gym, which shows that the gym is a happy enviroment for all age groups to exercise and become healthier. There are also **call to action buttons** guiding the user to go look at the classes that are available or to contact the gym if they wish to join a class or ask for more information. Each card originally had both buttons but did not look right on one page so I changed this to just one button of each call to action button.
 
 - ![Home page of Always Healthy site](/readme-images/home-page-owner-goals.png)
 
 ### Classes
 
-The Classes page features 10 images of the classes that are available, so that you can see from the photos and the description below what the class entails and whether it would be suitable for the young or mature members of the gym. There is also a **call to action button** below the classes descriptions to join and book one of the classes via the Contact page. 
+The Classes page features 10 images of the classes that are available, so that you can see from the photos and the description below what the class entails and whether it would be suitable for the young or mature members of the gym. There is also a **call to action button** below the classes descriptions to join and book one of the classes via the Contact page. This page had a **Contact Us button** on each class but was also removed to just a single button at the bottom, which makes the look of the page more simplistic.
 
 - ![Gym Classes and description](/readme-images/classes-image-description.png)
 
-To help keep people informed of classes there is a timetable at the bottom of the page showing what time, the class and where the class is held, which was created using a **table** for uniformity and its 2 tone colours with transparency so that the colours didn't overwelm the text. 
+To help keep people informed of classes there is a timetable at the bottom of the page showing what time, the type of class and where the class is held. The Timetable was created using a **table** for uniformity and its 2 tone colours of Portage and Lavender Purple with transparency, so that the colours didn't overwelm the text. 
 
 - ![Classes Timetable](/readme-images/classes-timetable.png)
 
 ### Shop
 
-The Shop page is laid out in columns with the image and a small description of the product and the price, to show that there is clothing, trainers, and drinks bottles available for new or recurring members of the gym, whether young or mature. On the mobile the design choice of 2 columns wide was to show more items on the smaller screen so that users would not get discouraged by seeing one product at a time. This will be changed in the future so that products can be purchased online.
+The Shop page is laid out in columns with the image and a small description of the product and the price, to show that there is clothing, trainers, and drinks bottles available for new or recurring members of the gym, whether young or mature. On the mobile the design choice of 2 columns wide was chosen to show more items on the smaller screen so that users would not get discouraged by seeing one product at a time. This page will be changed in the future so that the products can be purchased online.
 
 - ### Clothing
     - ![Clothing products](/readme-images/all-clothing-products.png)
@@ -108,7 +163,7 @@ The Shop page is laid out in columns with the image and a small description of t
 
 ### Contact
 
-The Contact page features a **contact form**, which requests an enquirers first and last names, email address and phone number. You also have a box to put details of your message, whether its to join the club, join a class or ask questions for further details etc. There is also a **send button** at the bottom of the form. The form has a transparent background so that you can see the full page image of a woman using the dumbbells. This image shows what the gym is like and to encourage users to join the gym. All the information input onto the form is **required** so if any box is left empty then a message appears to let the user know that the details are required. There is also **placeholer text** to show what format the input text needs to be in. Once the form is fully filled in then you can use the **call to action** button and **send message** to the gym.
+The Contact page features a **contact form**, which requests an enquirers first and last names, email address and phone number. You also have a box to put details of your message, whether its to join the club, join a class or ask questions for further details etc. There is also a **send button** at the bottom of the form. The form has a transparent background so that you can see the full page image of a woman using the dumbbells. This image shows what the gym is like and to encourage users to join the gym. All the information input onto the form is **required** so if any field is left empty then a message appears to let the user know that the details are required. There is also **placeholer text** to show what format the input text needs to be in. Once the form is fully filled in then you can use the **call to action** button and **send the message** to the gym.
 
 ![Contact Us page](/readme-images/contact-us-page.png)
 
@@ -118,8 +173,11 @@ The Contact page features a **contact form**, which requests an enquirers first 
 - Add a checkout basket and to receive payments to the shop, so can purchase products online.
 - Add testimonials to the Home page to let users see how other gym members are enjoying the gym.
 - Add FAQ table with drop down answers to the Home page so users get answers to their questions quicker.
+- Login for users of the gym to enable them to book classes online.
 - Change the send button on the Contact page to have a pop-up to show the message has been received.
 - Add GDPR compliant pop-up to approve of using personal data and to comply with data protection law.
+
+****
 
 ## Technologies Used
 
@@ -129,7 +187,7 @@ The Contact page features a **contact form**, which requests an enquirers first 
 
 ### Frameworks, Libraries and Programs used
 - [Code Institute CDN](https://codeinstitute-ide.net)
-    - Gitpod workspace was used for building the website.
+    - Gitpod workspace was used for writing the code to building the website. Within Gitpod a beautifier was used to format the html code layout.
 - [Bootstrap v5.3.3 CDN via jsDelivr](https://getbootstrap.com/)
     - Used for styling and make it more responsive.
 - [Google Fonts](https://fonts.google.com/) 
@@ -148,14 +206,29 @@ The Contact page features a **contact form**, which requests an enquirers first 
     - Used to resize images
 - [Convert webp to jpg](chrome-extension://lioppfcbaohgghplacfgajfhbpmlhnbc/src/action/index.html) - an extension on Chrome
     - Used to convert jpg images to webp images
-- [Am I Responsive](https://ui.dev/amiresponsive)
-    - Checking the responsiveness of the website.
 - [Deque University](https://dequeuniversity.com/rules/axe/4.10/color-contrast)
     - Checking the colour contrast of my Shop page.
- 
-## Testing
+- [Beautifier](https://beautifier.io/)
+    - To uniform the layout by formating the code for CSS and HTML.
+- [Balsamic Wireframes](https://balsamiq.com/)
+    - Create wireframes for the layout of the site.
+
+### Testing
+- [W3C Markup validator](https://validator.w3.org/)
+    - Testing the validity of html files.
+- [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+    - Testing the validity of css files.
+- [Am I Responsive](https://ui.dev/amiresponsive)
+    - Checking the responsiveness of the website.
+- Lighthouse tab within Chrome Developer Tools
+    - Testing the Performance, Accessibility, Best Practices and SEO of the site.
+
+****
+## Testing Performed
 
 [View TESTING.md file](/TESTING.md)
+
+****
 
 ## Deployment
 
@@ -175,16 +248,82 @@ The live link can be found [here](https://diane-4p.github.io/always-healthy/).
 
 The site is hosted using GitHub pagaes and is deployed via the main branch. The deployed site uses a Version Conrol System to track changes in the source code using the Gitpod terminal to commit messages and push then to GitHub. This will update the repository automatically when GitHub receives these commits in the main branch. The main landing page of the site has to be named index.html in order for the site to be deployed correctly, as the search engines are looking for this document to load the site onto the web.
 
-To run the site locally, you can clone the repository into the code editor of your choice by pasting the git clone https://github.com/Diane-4P/always-healthy.git into your terminal. To then stop using the repository and cut ties with it you type 'git remote rm origin' into the terminal.
+### Cloning
+
+To run the site locally, you can clone the repository into the code editor of your choice by pasting the git clone https://github.com/Diane-4P/always-healthy.git (using the https) into your terminal. To then stop using the repository and cut ties with it you type 'git remote rm origin' into the terminal.
+
+### Forking
+
+When you fork a GitHub repository you will make a copy of it, which can be put into your own account and you can make changes without affecting the original repository.
+
+1. Log into GitHub and locate the GitHub Repository you want to fork.
+2. At the top of the repository to the right, under the menu, there is a "Fork" button.
+3. You should have a copy of the original repository in your own GitHub account.
+
+****
 
 ## Credits (references)
-- Code
-    Table
+- ### Code
+- Table
     - [StackOverflow post No.169](https://stackoverflow.com/questions/20825211/bootstrap-table-striped-how-do-i-change-the-stripe-background-colour)
         - Was used to override stripes to change Bootstraps colours to the colours of the website and the colours were then made transparent.
-    - [Bootstrap v5.3.3](https://getbootstrap.com/) library and [W3 Schools](https://www.w3schools.com/css/default.asp) was used throughout the production of the site to make it responsive on all devices.
+        ```
+        .table-striped>tbody>tr:nth-child(odd)>td, 
+        .table-striped>tbody>tr:nth-child(odd)>th {
+        background-color: red; // Choose your own color here
+        }
+        ```
 
-- Content
+- Bootstrap and W3 Schools
+    - [Bootstrap v5.3.3](https://getbootstrap.com/) library and [W3 Schools](https://www.w3schools.com/css/default.asp) was used throughout the production of the site to make it responsive on all devices.
+        - Cards (adapted to suit the site I was creating)
+        ```
+        <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+        </div>
+        ```
+        ```
+        <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        </div>
+        ```
+        - Form (adapted to suit the site I was creating)
+        ```
+        <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+        </div>
+        ```
+        ```
+        <form>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </form>
+        ```
+
+- ### Content
     - All content was written by the developer.
     - Colours
         - [mycolor.space](https://mycolor.space/?hex=%2394D8FB&sub=1) 
@@ -194,9 +333,13 @@ To run the site locally, you can clone the repository into the code editor of yo
         - [colornamer.robertcooper.me](https://colornamer.robertcooper.me/)  
             - Name of colours was obtained on Colornamer as I made a note of the colours next to the CSS styling to describe what the Hex or RGBA values were.
     
-- Images
+- ### Images
     - Favicon image used came from the [Code Institute](https://codeinstitute.net/) Love Running project in their Full Stack Developer course.
-    
+    ```
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    ```
     - Home page
         - Hero - [Pixaby](https://pixabay.com/photos/worcester-england-cathedral-church-172391/) (2013)
         - Welcome - [Pixaby](https://pixabay.com/photos/woman-gym-person-1730325/) (2016)
@@ -233,6 +376,8 @@ To run the site locally, you can clone the repository into the code editor of yo
             1. [Pexels](https://www.pexels.com/photo/white-water-bottle-and-basketball-ball-5274535/) (2020) by Cottonbro Studio
             2. [Pexels](https://www.pexels.com/photo/a-man-drinking-from-a-tumbler-4853115/) (2020) by Ketut Subiyanto
     - Contact page - [Unsplash](https://unsplash.com/photos/woman-standing-surrounded-by-exercise-equipment-CQfNt66ttZM) (2018) by Danielle Cerullo
+
+****
 
 ## Acknowledgements
 - My Mentor - Brian Macharia - for his helpful feedback.
