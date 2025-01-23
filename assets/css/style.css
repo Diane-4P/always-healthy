@@ -67,6 +67,7 @@ header a {
     padding: 3px;
     /* Bermuda Onion */
     color: #9b5f96;
+    font-weight: 600;
 }
 
 
@@ -124,10 +125,11 @@ main {
 
 #cover-text>h2 {
     font-family: 'Rouge Script', serif;
-    font-size: 200%;
+    font-size: 3.2em;
     /* Bermuda Onion */
     color: #9b5f96;
     text-align: center;
+    font-weight: 600;
 }
 
 #cover-text>h3 {
@@ -159,6 +161,16 @@ main {
 /* Increase width of cards */
 .card {
     width: 18.5rem;
+}
+
+.card-text:last-child {
+/* Add important to override Bootstraps line-height */
+    line-height: 3 !important;
+    text-align: center;
+}
+
+.list-group-item {
+    padding: 1rem;
 }
 
 /* Custom Buttons */
@@ -306,20 +318,20 @@ footer {
 
 h4,
 #registered-marks h3 {
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-weight: 300;
     margin: 0;
     margin-bottom: 5px;
 }
 
 #registered-address {
-    font-size: 0.7em;
+    font-size: 1em;
     margin: 0;
     margin-bottom: 5px;
 }
 
 #copyright {
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin: 0;
     margin-bottom: 5px;
 }
@@ -385,7 +397,7 @@ h4,
 
     /* Hero */
     #cover-text {
-        width: 270px;
+        width: 330px;
         right: 50px;
     }
 
@@ -432,12 +444,8 @@ h4,
 @media screen and (min-width: 992px) {
 
     /* Header */
-    #logo {
-        font-size: 2.5em;
-    }
-
-    #menu {
-        font-size: 120%;
+    #menu li {
+        font-size: calc(1.2em + 0.3vw);
     }
 
     #menu a:hover {
@@ -469,15 +477,6 @@ h4,
 
 /* Media query: laptops and desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
-
-    /* Header */
-    #logo {
-        font-size: 3em;
-    }
-
-    #menu li {
-        font-size: 110%;
-    }
 
     /* Main */
     /* Classes page */
@@ -520,29 +519,34 @@ h4,
 @media screen and (min-width: 1800px) {
 
     /* Header */
-    #logo {
-        font-size: 3em;
-    }
-
     #menu {
         gap: 30px;
     }
 
     #menu li {
-        font-size: 1.5em;
-        padding: 5px;
+        font-size: calc(1.2em + 0.3vw);
         letter-spacing: 2px;
     }
 
     /* Main */
     /* Hero section */
     #cover-text {
-        height: 280px;
+        height: 350px;
         width: 520px;
         left: 750px;
         text-align: center;
         font-size: 1.8em;
+        font-weight: 600;
         margin-top: 10px;
+    }
+
+    #cover-text h2 {
+        font-size: 3.4em;
+    }
+
+    #cover-text h3 {
+        font-size: 1.2em;
+        font-weight: 600;
     }
 
     /* About section */
@@ -596,14 +600,21 @@ h4,
     #registered-marks {
         width: 20%;
         margin-left: 0;
-        text-align: center;
+    }
+
+    #registered-heading {
+        font-size: 1.5em;
+    }
+
+    #registered-address {
+        font-size: 1.2em;
     }
 
     #copyright {
-        font-size: 0.8em;
+        font-size: 1.2em;
     }
 
-    i {
-        font-size: small;
+    #copyright i {
+        font-size: 1em;
     }
 }
